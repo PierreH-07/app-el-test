@@ -117,7 +117,7 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--txt);
 </div>
 <script>
 'use strict';
-fetch('data/resultats_ko_el.json')
+fetch('https://raw.githubusercontent.com/PierreH-07/app-el/data/resultats_ko_el.json')
   .then(function(r){return r.json();})
   .then(function(json){
     var DATA  = json.KO_DATA;

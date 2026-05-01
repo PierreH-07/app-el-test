@@ -105,7 +105,7 @@ input[type=range]{accent-color:var(--blue);width:140px;cursor:pointer;}
 <div id="grp-tip"></div>
 <script>
 'use strict';
-fetch('data/resultats_10km_el.json')
+fetch('https://raw.githubusercontent.com/PierreH-07/app-el/data/resultats_10km_el.json')
   .then(function(r){return r.json();})
   .then(function(json){
     const CF = json.CF;
