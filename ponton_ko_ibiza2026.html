@@ -925,18 +925,23 @@ function updateMeteo(idx){
   document.getElementById('mx-c-temp').textContent=(m.t!=null?m.t+'°C':'—');
   document.getElementById('mx-c-vent').textContent=m.v+' km/h · '+m.dir;
   document.getElementById('mx-l-vent').innerHTML='Vent · raf. '+(m.r!=null?m.r.toFixed(1)+' km/h':'—');
-  document.getElementById('mx-c-houle').textContent='—';
+  if(m.houle_h!=null){
+    document.getElementById('mx-c-houle').textContent=m.houle_h.toFixed(1)+'m · '+dirCard(m.houle_dir);
+    document.getElementById('mx-l-houle').innerHTML='Houle ('+Math.round(m.houle_dir)+'°) &middot; <span id="mx-c-houle-per">'+Math.round(m.houle_per)+'s</span>';
+  }else{
+    document.getElementById('mx-c-houle').textContent='—';
+    document.getElementById('mx-l-houle').textContent='Houle';
+  }
   document.getElementById('mx-c-mer').textContent='—';
-  document.getElementById('mx-l-houle').textContent='Houle';
   document.getElementById('mx-l-mer').textContent='Mer de vent';
 
   // Convertir vers le format attendu par renderSVG
   var ms={
     vent_kt: m.v/1.852,
     vent_dir: cardToDeg(m.dir),
-    houle_dir: null,
-    houle_h: null,
-    houle_per: null,
+    houle_dir: m.houle_dir!=null?m.houle_dir:null,
+    houle_h: m.houle_h!=null?m.houle_h:null,
+    houle_per: m.houle_per!=null?m.houle_per:null,
     mer_dir: null,
     mer_h: null,
     mer_per: null
@@ -945,8 +950,49 @@ function updateMeteo(idx){
   renderSVG('mx-svg-finish', 180,300, 290,480, 220,390, ms);
 }
 
+function fetchMeteoOpenMeteo(){
+  var LAT=40.98,LON=9.63,DATE='2026-05-03';
+  var urlWind='https://api.open-meteo.com/v1/forecast?latitude='+LAT+'&longitude='+LON
+    +'&hourly=temperature_2m,windspeed_10m,windgusts_10m,winddirection_10m'
+    +'&timezone=Europe%2FRome&start_date='+DATE+'&end_date='+DATE;
+  var urlMarine='https://marine-api.open-meteo.com/v1/marine?latitude='+LAT+'&longitude='+LON
+    +'&hourly=wave_height,wave_direction,wave_period'
+    +'&timezone=Europe%2FRome&start_date='+DATE+'&end_date='+DATE;
+
+  function buildSlice(wind,marine,fromH,toH){
+    var times=wind.hourly.time,out=[];
+    for(var i=0;i<times.length;i++){
+      var h=parseInt(times[i].split('T')[1]);
+      if(h>=fromH&&h<=toH){
+        out.push({
+          h:h+'h',
+          t:wind.hourly.temperature_2m[i],
+          v:wind.hourly.windspeed_10m[i],
+          r:wind.hourly.windgusts_10m[i],
+          dir:dirCard(wind.hourly.winddirection_10m[i]),
+          houle_h:marine.hourly.wave_height[i],
+          houle_dir:marine.hourly.wave_direction[i],
+          houle_per:marine.hourly.wave_period[i]
+        });
+      }
+    }
+    return out;
+  }
+
+  Promise.all([fetch(urlWind).then(function(r){return r.json();}),fetch(urlMarine).then(function(r){return r.json();})])
+    .then(function(res){
+      var wind=res[0],marine=res[1];
+      METEO_H=buildSlice(wind,marine,12,18);
+      METEO_F=buildSlice(wind,marine,14,20);
+      updateSliderTicks();
+      updateMeteo(parseInt(document.getElementById('mx-time-slider').value)||0);
+    })
+    .catch(function(e){console.warn('Météo Open-Meteo indisponible:',e);});
+}
+
 updateSliderTicks();
 updateMeteo(3);
+fetchMeteoOpenMeteo();
   </script>
 </div>
 </body>
