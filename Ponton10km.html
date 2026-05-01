@@ -834,6 +834,11 @@ function switchGender(g){
 }
 
 // ── Init ───────────────────────────────────────────────────────
+    window.switchGender=switchGender;
+    window.setPanelView=setPanelView;
+    window.closePanel=closePanel;
+    window.renderHist=renderHist;
+    window.selectCourse=selectCourse;
     if(document.readyState==='loading'){
       window.addEventListener('load',function(){setTop();switchGender('f');});
     } else {

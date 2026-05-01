@@ -598,6 +598,11 @@ function switchSerie(s){
   buildChips(); renderHist();
 }
 
+    window.switchGender=switchGender;
+    window.switchSerie=switchSerie;
+    window.setPanelView=setPanelView;
+    window.closePanel=closePanel;
+    window.renderHist=renderHist;
     if(document.readyState==='loading'){
       window.addEventListener('load',function(){setTop();switchGender('f');});
     } else {

@@ -171,7 +171,15 @@ document.addEventListener('click', function(e){
   }
 });
 
-window.addEventListener('load',function(){setGenre('F');});
+window.setGenre=setGenre;
+window.selView=selView;
+window.selComp=selComp;
+window.closePanel=closePanel;
+if(document.readyState==='loading'){
+  window.addEventListener('load',function(){setTop();setGenre('F');});
+} else {
+  setTop();setGenre('F');
+}
 window.addEventListener('resize',function(){setTop();});
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closePanel();});
 
