@@ -105,7 +105,7 @@ input[type=range]{accent-color:var(--blue);width:140px;cursor:pointer;}
 <div id="grp-tip"></div>
 <script>
 'use strict';
-fetch('data/resultats_10km_el.json')
+fetch('https://raw.githubusercontent.com/PierreH-07/app-el/data/resultats_10km_el.json')
   .then(function(r){return r.json();})
   .then(function(json){
     const CF = json.CF;
@@ -118,12 +118,21 @@ const TIP_DATA = new Map();
 
 function courses(){return G==='f'?CF:CH;}
 
-window.addEventListener('load',()=>{
-  setGender('f');
-  // Délégation d'événements pour les tooltips groupes (fonctionne avec SVG dans innerHTML)
+window.setGender=setGender;
+window.selectView=selectView;
+window.selectCourse=selectCourse;
+window.toggleSw=toggleSw;
+window.selFocus=selFocus;
+const _initAnalyse=()=>{
+  setTop(); setGender('f');
   document.getElementById('content').addEventListener('mousemove', onContentMouseMove);
   document.getElementById('content').addEventListener('mouseleave', ()=>hideTip());
-});
+};
+if(document.readyState==='loading'){
+  window.addEventListener('load',_initAnalyse);
+} else {
+  _initAnalyse();
+}
 window.addEventListener('resize',()=>{setTop();renderAll();});
 
 function onContentMouseMove(e){
