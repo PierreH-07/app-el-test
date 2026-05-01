@@ -116,6 +116,10 @@ body{font-family:'Helvetica Neue',Arial,system-ui,-apple-system,sans-serif;font-
 ::-webkit-scrollbar{width:4px;height:4px;}
 ::-webkit-scrollbar-track{background:var(--bg);}
 ::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px;}
+.mx-carte-wrap{display:none;position:relative;}
+.mx-carte-wrap.on{display:block;}
+.mx-carte-wrap img{display:block;width:100%;}
+.mx-carte-overlay{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;}
 </style>
 </head>
 <body>
@@ -539,6 +543,11 @@ function switchGender(g){
   document.getElementById('serie-tab-2').className='serie-tab';
   closePanel();
   buildChips(); renderHist();
+  updateSliderTicks();
+  var defIdx=Math.min(3,activeMeteo().length-1);
+  var slider=document.getElementById('mx-time-slider');
+  if(slider)slider.value=defIdx;
+  updateMeteo(defIdx);
 }
 
 function switchSerie(s){
@@ -627,9 +636,7 @@ window.addEventListener('resize',()=>{setTop();renderHist();});
       <input type="range" id="mx-time-slider" min="0" max="6" value="3" step="1" oninput="updateMeteo(+this.value)">
       <span class="mx-slider-lbl" style="text-align:right">H+3</span>
     </div>
-    <div class="mx-slider-ticks">
-      <span>06h</span><span>07h</span><span>08h</span><span class="now">09h</span><span>10h</span><span>11h</span><span>12h</span>
-    </div>
+    <div class="mx-slider-ticks" id="mx-slider-ticks"></div>
   </div>
 
   <div class="mx-legende">
@@ -698,11 +705,42 @@ var METEO_F=[
   {h:"19h",t:18.1,v:7.9,r:18.0,dir:"E"},
   {h:"20h",t:17.2,v:5.1,r:14.8,dir:"E"}
 ];
-var DEPART_H=15,DEPART_M=0;
+var DEPART_H=15,DEPART_M=0,DEPART_F=17;
 
 function dirCard(d){
   var c=['N','NNE','NE','ENE','E','ESE','SE','SSE','S','SSO','SO','OSO','O','ONO','NO','NNO'];
   return c[Math.round(((d%360)+360)%360/22.5)%16];
+}
+
+function cardToDeg(dir){
+  var map={N:0,NNE:22,NE:45,ENE:67,E:90,ESE:112,SE:135,SSE:157,S:180,SSO:202,SO:225,OSO:247,O:270,ONO:292,NO:315,NNO:337};
+  return map[dir]!=null?map[dir]:0;
+}
+
+function activeMeteo(){
+  return (typeof G!=='undefined'&&G==='h')?METEO_H:METEO_F;
+}
+
+function meteoLabel(m){
+  var startH=(typeof G!=='undefined'&&G==='h')?DEPART_H:DEPART_F;
+  var h=parseInt(m.h);
+  var off=h-startH;
+  if(off===0)return'H';
+  return off>0?'H+'+off:'H'+off;
+}
+
+function updateSliderTicks(){
+  var arr=activeMeteo();
+  var slider=document.getElementById('mx-time-slider');
+  if(slider)slider.max=arr.length-1;
+  var ticks=document.getElementById('mx-slider-ticks');
+  if(!ticks)return;
+  var html='';
+  for(var i=0;i<arr.length;i++){
+    var lbl=meteoLabel(arr[i]);
+    html+='<span'+(lbl==='H'?' class="now"':'')+'>'+arr[i].h+'</span>';
+  }
+  ticks.innerHTML=html;
 }
 
 // Calcule les 3 points d'ancrage parallèles
@@ -788,38 +826,41 @@ function bgLbl(x,y,txt,col,sz){
 function renderSVG(svgId, vCx,vCy, hCx,hCy, mCx,mCy, m){
   var vPts=parallelPts(vCx,vCy,m.vent_dir,90);
   var hPts=m.houle_dir!=null?parallelPts(hCx,hCy,m.houle_dir,80):null;
-  var mPts=parallelPts(mCx,mCy,m.mer_dir,70);
+  var mPts=m.mer_dir!=null?parallelPts(mCx,mCy,m.mer_dir,70):null;
 
   // VENT — 3 flèches parallèles, label sur la centrale
   var vSVG='';
-  vPts.forEach(function(pt,i){
+  vPts.forEach(function(pt){
     vSVG+=windArrow(pt[0],pt[1],m.vent_dir,m.vent_kt,'#93c5fd',1.4);
   });
-  // Label au-dessus de la flèche centrale, décalé vers l'origine
   var vrad=((m.vent_dir+180)%360)*Math.PI/180;
   var vLx=vCx-Math.sin(vrad)*30, vLy=vCy+Math.cos(vrad)*30;
   vSVG+=bgLbl(vLx-2,vLy-18,'VENT','#bfdbfe',15);
-  vSVG+=bgLbl(vLx-2,vLy,m.vent_kt+'kt '+dirCard(m.vent_dir),'#93c5fd',13);
+  vSVG+=bgLbl(vLx-2,vLy,m.vent_kt.toFixed(1)+'kt '+dirCard(m.vent_dir),'#93c5fd',13);
 
   // HOULE — 3 flèches parallèles ondulées
   var hSVG='';
-  if(hPts) hPts.forEach(function(pt,i){
+  if(hPts) hPts.forEach(function(pt){
     hSVG+=swellArrow(pt[0],pt[1],m.houle_dir,'#67e8f9',1.2,0.88,9);
   });
-  var hrad=((m.houle_dir+180)%360)*Math.PI/180;
-  var hLx=hCx-Math.sin(hrad)*30, hLy=hCy+Math.cos(hrad)*30;
-  if(m.houle_dir!=null) hSVG+=bgLbl(hLx-2,hLy-18,'HOULE','#a5f3fc',14);
-  if(m.houle_dir!=null) hSVG+=bgLbl(hLx-2,hLy,m.houle_h.toFixed(1)+'m '+dirCard(m.houle_dir)+' T'+(m.houle_per||'?')+'s','#67e8f9',12);
+  if(m.houle_dir!=null){
+    var hrad=((m.houle_dir+180)%360)*Math.PI/180;
+    var hLx=hCx-Math.sin(hrad)*30, hLy=hCy+Math.cos(hrad)*30;
+    hSVG+=bgLbl(hLx-2,hLy-18,'HOULE','#a5f3fc',14);
+    hSVG+=bgLbl(hLx-2,hLy,(m.houle_h||0).toFixed(1)+'m '+dirCard(m.houle_dir)+' T'+(m.houle_per||'?')+'s','#67e8f9',12);
+  }
 
   // MER DE VENT — 2 flèches parallèles (plus discrètes)
   var mSVG='';
-  if(mPts) [mPts[0],mPts[2]].forEach(function(pt){
-    mSVG+=swellArrow(pt[0],pt[1],m.mer_dir,'#7dd3fc',1.0,0.65,6);
-  });
-  var mrad=((m.mer_dir+180)%360)*Math.PI/180;
-  var mLx=mCx-Math.sin(mrad)*20, mLy=mCy+Math.cos(mrad)*20;
-  mSVG+=bgLbl(mLx-2,mLy-16,'MER DE VENT','#bae6fd',12);
-  mSVG+=bgLbl(mLx-2,mLy,m.mer_h.toFixed(1)+'m '+dirCard(m.mer_dir)+' T'+(m.mer_per||'?')+'s','#7dd3fc',11);
+  if(mPts){
+    [mPts[0],mPts[2]].forEach(function(pt){
+      mSVG+=swellArrow(pt[0],pt[1],m.mer_dir,'#7dd3fc',1.0,0.65,6);
+    });
+    var mrad=((m.mer_dir+180)%360)*Math.PI/180;
+    var mLx=mCx-Math.sin(mrad)*20, mLy=mCy+Math.cos(mrad)*20;
+    mSVG+=bgLbl(mLx-2,mLy-16,'MER DE VENT','#bae6fd',12);
+    mSVG+=bgLbl(mLx-2,mLy,(m.mer_h||0).toFixed(1)+'m '+dirCard(m.mer_dir)+' T'+(m.mer_per||'?')+'s','#7dd3fc',11);
+  }
 
   document.getElementById(svgId+'-vent').innerHTML=vSVG;
   document.getElementById(svgId+'-houle').innerHTML=hSVG;
@@ -827,29 +868,38 @@ function renderSVG(svgId, vCx,vCy, hCx,hCy, mCx,mCy, m){
 }
 
 function updateMeteo(idx){
-  var m=METEO[idx];
-  document.getElementById('mx-heure-label').textContent=m.label;
-  document.getElementById('mx-heure-time').textContent=m.heure||'';
-  var pct=(idx/6*100).toFixed(1);
+  var arr=activeMeteo();
+  if(idx<0||idx>=arr.length)idx=Math.min(3,arr.length-1);
+  var m=arr[idx];
+  document.getElementById('mx-heure-label').textContent=meteoLabel(m);
+  document.getElementById('mx-heure-time').textContent=m.h.replace('h','h00');
+  var pct=(arr.length>1?(idx/(arr.length-1)*100):50).toFixed(1);
   document.getElementById('mx-time-slider').style.background=
     'linear-gradient(to right,#003087 0%,#003087 '+pct+'%,#c8d8ea '+pct+'%,#c8d8ea 100%)';
-  document.getElementById('mx-c-temp').textContent=(m.temp!=null?m.temp+'°C':'—');
-  document.getElementById('mx-c-vent').textContent=m.vent_kt+' kt · '+(m.vent_dir!=null?dirCard(m.vent_dir):'—');
-  if(document.getElementById('mx-c-raf'))document.getElementById('mx-c-raf').textContent=(m.raf_kt||'—')+' kt';
-  document.getElementById('mx-c-houle').textContent=(m.houle_h||0).toFixed(1)+'m · '+(m.houle_dir!=null?dirCard(m.houle_dir):'—');
-  document.getElementById('mx-c-mer').textContent=(m.mer_vent_h||m.mer_h||0).toFixed(1)+'m · '+(m.mer_dir!=null?dirCard(m.mer_dir):'—');
-  document.getElementById('mx-l-vent').textContent='Vent ('+m.vent_dir+'°)';
-  document.getElementById('mx-l-houle').textContent='Houle'+(m.houle_dir!=null?' ('+m.houle_dir+'°)':'');
-  document.getElementById('mx-l-mer').textContent='Mer de vent'+(m.mer_dir!=null?' ('+m.mer_dir+'°)':'');
-  if(document.getElementById('mx-c-houle-per')) document.getElementById('mx-c-houle-per').textContent=(m.houle_per||'—')+'s';
-  if(document.getElementById('mx-c-mer-per')) document.getElementById('mx-c-mer-per').textContent=(m.mer_per||'—')+'s';
+  document.getElementById('mx-c-temp').textContent=(m.t!=null?m.t+'°C':'—');
+  document.getElementById('mx-c-vent').textContent=m.v+' km/h · '+m.dir;
+  document.getElementById('mx-l-vent').innerHTML='Vent · raf. '+(m.r!=null?m.r.toFixed(1)+' km/h':'—');
+  document.getElementById('mx-c-houle').textContent='—';
+  document.getElementById('mx-c-mer').textContent='—';
+  document.getElementById('mx-l-houle').textContent='Houle';
+  document.getElementById('mx-l-mer').textContent='Mer de vent';
 
-  // Vue parcours : zone de mer ouverte gauche
-  renderSVG('mx-svg-parcours', 180,340, 340,560, 260,450, m);
-  // Vue arrivée (zoom) : zone de mer à gauche du ponton
-  renderSVG('mx-svg-finish', 180,300, 290,480, 220,390, m);
+  // Convertir vers le format attendu par renderSVG
+  var ms={
+    vent_kt: m.v/1.852,
+    vent_dir: cardToDeg(m.dir),
+    houle_dir: null,
+    houle_h: null,
+    houle_per: null,
+    mer_dir: null,
+    mer_h: null,
+    mer_per: null
+  };
+  renderSVG('mx-svg-parcours', 180,340, 340,560, 260,450, ms);
+  renderSVG('mx-svg-finish', 180,300, 290,480, 220,390, ms);
 }
 
+updateSliderTicks();
 updateMeteo(3);
   </script>
 </div>
