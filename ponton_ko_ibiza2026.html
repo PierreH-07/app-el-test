@@ -680,6 +680,24 @@ function showVue(v,btn){
 
 'use strict';
 var METEO=[{"label": "H-3", "heure": "12h00", "vent_dir": 31, "vent_kt": 8.8, "raf_kt": 16.5, "mer_h": 0.52, "houle_dir": 47, "houle_h": 0.44, "houle_per": 4.0, "mer_vent_h": 0.08, "mer_per": 3, "mer_dir": 31, "temp": 18.9}, {"label": "H-2", "heure": "13h00", "vent_dir": 34, "vent_kt": 8.4, "raf_kt": 16.5, "mer_h": 0.5, "houle_dir": 48, "houle_h": 0.44, "houle_per": 3.9, "mer_vent_h": 0.06, "mer_per": 3, "mer_dir": 34, "temp": 19.2}, {"label": "H-1", "heure": "14h00", "vent_dir": 40, "vent_kt": 7.9, "raf_kt": 15.8, "mer_h": 0.48, "houle_dir": 48, "houle_h": 0.42, "houle_per": 3.9, "mer_vent_h": 0.06, "mer_per": 3, "mer_dir": 40, "temp": 19.3}, {"label": "H", "heure": "15h00", "vent_dir": 47, "vent_kt": 7.1, "raf_kt": 15.0, "mer_h": 0.46, "houle_dir": 50, "houle_h": 0.4, "houle_per": 3.8, "mer_vent_h": 0.06, "mer_per": 3, "mer_dir": 47, "temp": 19.3}, {"label": "H+1", "heure": "16h00", "vent_dir": 55, "vent_kt": 6.4, "raf_kt": 13.6, "mer_h": 0.42, "houle_dir": 53, "houle_h": 0.36, "houle_per": 3.8, "mer_vent_h": 0.06, "mer_per": 3, "mer_dir": 55, "temp": 19.2}, {"label": "H+2", "heure": "17h00", "vent_dir": 58, "vent_kt": 5.5, "raf_kt": 12.4, "mer_h": 0.4, "houle_dir": 55, "houle_h": 0.34, "houle_per": 3.8, "mer_vent_h": 0.06, "mer_per": 3, "mer_dir": 58, "temp": 18.9}, {"label": "H+3", "heure": "18h00", "vent_dir": 59, "vent_kt": 4.1, "raf_kt": 10.7, "mer_h": 0.38, "houle_dir": 58, "houle_h": 0.32, "houle_per": 3.8, "mer_vent_h": 0.06, "mer_per": 3, "mer_dir": 59, "temp": 18.4}];
+var METEO_H=[
+  {h:"12h",t:19.0,v:17.6,r:32.8,dir:"NE"},
+  {h:"13h",t:19.3,v:17.4,r:32.8,dir:"NE"},
+  {h:"14h",t:19.5,v:16.3,r:32.4,dir:"NE"},
+  {h:"15h",t:19.6,v:14.7,r:31.0,dir:"NE"},
+  {h:"16h",t:19.5,v:13.0,r:27.7,dir:"NE"},
+  {h:"17h",t:19.2,v:10.8,r:24.8,dir:"E"},
+  {h:"18h",t:18.7,v:9.2,r:21.6,dir:"E"}
+];
+var METEO_F=[
+  {h:"14h",t:19.5,v:16.3,r:32.4,dir:"NE"},
+  {h:"15h",t:19.6,v:14.7,r:31.0,dir:"NE"},
+  {h:"16h",t:19.5,v:13.0,r:27.7,dir:"NE"},
+  {h:"17h",t:19.2,v:10.8,r:24.8,dir:"E"},
+  {h:"18h",t:18.7,v:9.2,r:21.6,dir:"E"},
+  {h:"19h",t:18.1,v:7.9,r:18.0,dir:"E"},
+  {h:"20h",t:17.2,v:5.1,r:14.8,dir:"E"}
+];
 var DEPART_H=15,DEPART_M=0;
 
 function dirCard(d){
