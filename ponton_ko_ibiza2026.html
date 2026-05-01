@@ -116,10 +116,49 @@ body{font-family:'Helvetica Neue',Arial,system-ui,-apple-system,sans-serif;font-
 ::-webkit-scrollbar{width:4px;height:4px;}
 ::-webkit-scrollbar-track{background:var(--bg);}
 ::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px;}
-.mx-carte-wrap{display:none;position:relative;}
+
+.mx-card{background:var(--surf);border:1px solid var(--border);border-radius:8px;overflow:hidden;
+  box-shadow:0 2px 8px rgba(0,48,135,.09);max-width:700px;margin:20px auto;}
+.mx-card-hdr{background:var(--ffn-blue);color:#fff;padding:12px 16px;
+  display:flex;align-items:flex-start;justify-content:space-between;gap:12px;}
+.mx-card-hdr-title{font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;}
+.mx-card-hdr-sub{font-size:9px;color:rgba(255,255,255,.45);margin-top:2px;}
+.mx-heure-badge{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);
+  border-radius:5px;padding:5px 14px;text-align:center;flex-shrink:0;}
+.mx-heure-label{font-size:20px;font-weight:900;line-height:1;}
+.mx-heure-sub{font-size:9px;color:rgba(255,255,255,.5);margin-top:2px;}
+.mx-conditions{display:flex;background:#1a2e5a;border-bottom:1px solid var(--border);flex-wrap:wrap;}
+.mx-cond-item{display:flex;align-items:center;gap:8px;padding:8px 14px;
+  border-right:1px solid rgba(255,255,255,.08);flex:1;min-width:110px;}
+.mx-cond-icon{font-size:16px;flex-shrink:0;}
+.mx-cond-val{font-size:13px;font-weight:800;color:#fff;line-height:1;}
+.mx-cond-lbl{font-size:9px;color:rgba(255,255,255,.4);margin-top:2px;}
+.mx-cond-item.mx-temp .mx-cond-val{color:#fbbf24;}
+.mx-cond-item.mx-vent .mx-cond-val{color:#93c5fd;}
+.mx-cond-item.mx-houle .mx-cond-val{color:#67e8f9;}
+.mx-cond-item.mx-mer .mx-cond-val{color:#7dd3fc;}
+.mx-vtabs{display:flex;background:#eaf0f9;border-bottom:1px solid var(--border);}
+.mx-vtab{flex:1;padding:8px;font-size:11px;font-weight:700;border:none;cursor:pointer;
+  background:transparent;color:var(--txt-dim);transition:all .15s;}
+.mx-vtab.on{background:var(--ffn-blue);color:#fff;}
+.mx-carte-wrap{position:relative;background:#1a3a5c;line-height:0;display:none;}
 .mx-carte-wrap.on{display:block;}
-.mx-carte-wrap img{display:block;width:100%;}
+.mx-carte-wrap img{width:100%;display:block;object-fit:contain;}
 .mx-carte-overlay{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;}
+.mx-slider-wrap{padding:12px 20px 8px;background:#f0f4f8;border-top:1px solid var(--border);}
+.mx-slider-row{display:flex;align-items:center;gap:12px;}
+.mx-slider-lbl{font-size:10px;font-weight:700;color:var(--txt-dim);white-space:nowrap;width:32px;}
+input[type=range]{flex:1;-webkit-appearance:none;height:6px;border-radius:3px;outline:none;cursor:pointer;}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;
+  border-radius:50%;background:var(--ffn-blue);border:3px solid #fff;
+  box-shadow:0 1px 5px rgba(0,48,135,.35);cursor:pointer;}
+.mx-slider-ticks{display:flex;justify-content:space-between;margin-top:5px;}
+.mx-slider-ticks span{font-size:9px;color:var(--txt-dim);}
+.mx-slider-ticks span.now{color:var(--ffn-red);font-weight:800;}
+.mx-legende{padding:8px 14px;background:#fff;border-top:1px solid var(--border);
+  display:flex;gap:14px;flex-wrap:wrap;align-items:center;}
+.mx-leg-item{display:flex;align-items:center;gap:5px;font-size:10px;}
+.mx-leg-note{margin-left:auto;font-size:9px;color:var(--txt-dim);font-style:italic;}
 </style>
 </head>
 <body>
@@ -659,7 +698,7 @@ window.addEventListener('resize',()=>{setTop();renderHist();});
         <polygon points="26,6 18,3 18,9" fill="#7dd3fc" opacity=".75"/>
       </svg><span style="color:#0284c7;font-weight:700">Mer de vent</span>
     </div>
-    <span class="mx-leg-note">Trait court=5kt · Trait long=10kt · ▲=25kt &nbsp;·&nbsp; Source : <a href="https://marine.meteoconsult.fr/meteo-marine/bulletin-detaille/port-907/previsions-meteo-golfo-aranci-aujourdhui" target="_blank" style="color:var(--dim)">Météo Consult Marine</a></span>
+    <span class="mx-leg-note">Trait court=15 km/h · Trait long=30 km/h · ▲=60 km/h &nbsp;·&nbsp; Source : <a href="https://open-meteo.com/" target="_blank" style="color:var(--txt-dim)">Open-Meteo GFS</a></span>
   </div>
 
 </div>
