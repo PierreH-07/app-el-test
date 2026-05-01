@@ -237,8 +237,7 @@ let G='f', SEL=null, NOC_FILT=null, SERIE=1, PANEL_VIEW='profil';
 
 const data = () => {
   const all = G==='f' ? DATA_F : DATA_H;
-  // Série 1 = BIB impairs, Série 2 = BIB pairs
-  return all.filter(d => SERIE===1 ? d.bib % 2 !== 0 : d.bib % 2 === 0);
+  return all.filter(d => d.serie === SERIE);
 };
 const allData = () => G==='f' ? DATA_F : DATA_H;
 
