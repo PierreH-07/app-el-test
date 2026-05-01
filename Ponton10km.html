@@ -391,13 +391,13 @@ function renderHist(){
       const bY=marginT+yScale(ng.v1500), bH=chartH-yScale(ng.v1500);
       svg+='<rect x="'+(cx-barW/2)+'" y="'+bY+'" width="'+barW+'" height="'+bH+'"'
         +' fill="'+bColor+'" stroke="'+bStroke+'" stroke-width="'+bStrokeW+'" rx="1"'
-        +' style="cursor:pointer" onclick="tap('+ng.bib+')"/>';
+        +' style="cursor:pointer" data-bib="'+ng.bib+'"/>';
     }
     if(ng.v400){
       const dy=marginT+yScale(ng.v400);
       const baseY=ng.v1500?(marginT+yScale(ng.v1500)):(marginT+chartH);
       svg+='<line x1="'+cx+'" y1="'+dy+'" x2="'+cx+'" y2="'+baseY+'" stroke="#003087" stroke-width="1" stroke-dasharray="3,2"/>';
-      svg+='<circle cx="'+cx+'" cy="'+dy+'" r="3.5" fill="#003087" style="cursor:pointer" onclick="tap('+ng.bib+')"/>';
+      svg+='<circle cx="'+cx+'" cy="'+dy+'" r="3.5" fill="#003087" style="cursor:pointer" data-bib="'+ng.bib+'"/>';
     }
     if(isFR){
       const topY=ng.v1500?(marginT+yScale(ng.v1500)-4):(marginT+chartH-4);
@@ -406,7 +406,7 @@ function renderHist(){
     if(isSel) svg+='<rect x="'+(marginL)+'" y="'+marginT+'" width="'+chartW+'" height="'+chartH+'" fill="rgba(200,16,46,0)" rx="0"/>'
       +'<rect x="'+(cx-barW/2-2)+'" y="'+marginT+'" width="'+(barW+4)+'" height="'+chartH+'" fill="rgba(200,16,46,0.06)" rx="2"/>';
 
-    svg+='<rect x="'+(cx-gap/2)+'" y="'+marginT+'" width="'+gap+'" height="'+chartH+'" fill="transparent" style="cursor:pointer" onclick="tap('+ng.bib+')"/>';
+    svg+='<rect x="'+(cx-gap/2)+'" y="'+marginT+'" width="'+gap+'" height="'+chartH+'" fill="transparent" style="cursor:pointer" data-bib="'+ng.bib+'"/>';
 
     const lblY=marginT+chartH+14;
     svg+='<text x="'+cx+'" y="'+lblY+'" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="'+(isSel?'#C8102E':'#6b7f9e')+'" font-weight="'+(isSel?'700':'400')+'">'+ng.bib+'</text>';
@@ -445,6 +445,7 @@ function renderHist(){
 
   container.innerHTML=svg;
   container.style.minWidth=W+'px';
+  container.onclick=function(e){const el=e.target.closest('[data-bib]');if(el)tap(+el.dataset.bib);};
 }
 
 // ── Tap ───────────────────────────────────────────────────────
