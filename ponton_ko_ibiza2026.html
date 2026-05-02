@@ -603,7 +603,6 @@ function switchSerie(s){
     window.setPanelView=setPanelView;
     window.closePanel=closePanel;
     window.renderHist=renderHist;
-    window.showVue=showVue;
     if(document.readyState==='loading'){
       window.addEventListener('load',function(){setTop();switchGender('f');});
     } else {
@@ -722,13 +721,6 @@ function showVue(v,btn){
   if(f) f.className='mx-carte-wrap'+(v==='finish'?' on':'');
   document.querySelectorAll('.mx-vtab').forEach(function(t){t.classList.remove('on');});
   if(btn) btn.classList.add('on');
-}
-
-function showVue(v,btn){
-  document.getElementById('mx-vue-parcours').classList.toggle('on',v==='parcours');
-  document.getElementById('mx-vue-finish').classList.toggle('on',v==='finish');
-  document.querySelectorAll('.vtab').forEach(function(t){t.classList.remove('on');});
-  btn.classList.add('on');
 }
 
 'use strict';
