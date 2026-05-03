@@ -84,6 +84,7 @@ input[type=range]{accent-color:var(--blue);width:140px;cursor:pointer;}
 <div class="hdr" id="hdr">
   <div class="hdr-left">
     <div class="hdr-title">🌊 Analyse de course · Eau libre 10km</div>
+    <a href="index.html" style="display:inline-flex;align-items:center;gap:5px;color:rgba(255,255,255,.6);font-size:10px;text-decoration:none;padding:3px 8px;border:1px solid rgba(255,255,255,.2);border-radius:3px;margin-bottom:4px">← Accueil</a>
     <div class="hdr-sub">FFN · Centre de la Performance · 2021–2026</div>
     <div class="hdr-cond" id="hdr-cond"></div>
   </div>
@@ -105,7 +106,7 @@ input[type=range]{accent-color:var(--blue);width:140px;cursor:pointer;}
 <div id="grp-tip"></div>
 <script>
 'use strict';
-fetch('data/resultats_10km_el.json')
+fetch('https://raw.githubusercontent.com/PierreH-07/app-el/data/resultats_10km_el.json')
   .then(function(r){return r.json();})
   .then(function(json){
     const CF = json.CF;
@@ -118,12 +119,21 @@ const TIP_DATA = new Map();
 
 function courses(){return G==='f'?CF:CH;}
 
-window.addEventListener('load',()=>{
-  setGender('f');
-  // Délégation d'événements pour les tooltips groupes (fonctionne avec SVG dans innerHTML)
+window.setGender=setGender;
+window.selectView=selectView;
+window.selectCourse=selectCourse;
+window.toggleSw=toggleSw;
+window.selFocus=selFocus;
+const _initAnalyse=()=>{
+  setTop(); setGender('f');
   document.getElementById('content').addEventListener('mousemove', onContentMouseMove);
   document.getElementById('content').addEventListener('mouseleave', ()=>hideTip());
-});
+};
+if(document.readyState==='loading'){
+  window.addEventListener('load',_initAnalyse);
+} else {
+  _initAnalyse();
+}
 window.addEventListener('resize',()=>{setTop();renderAll();});
 
 function onContentMouseMove(e){
