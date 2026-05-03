@@ -118,7 +118,7 @@ html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--txt);
 </div>
 <script>
 'use strict';
-fetch('https://raw.githubusercontent.com/PierreH-07/app-el/data/resultats_ko_el.json')
+fetch('https://raw.githubusercontent.com/PierreH-07/app-el/data/resultats_ko_el.json?_='+Date.now())
   .then(function(r){return r.json();})
   .then(function(json){
     var DATA  = json.KO_DATA;
@@ -155,9 +155,10 @@ function findByNom(arr,nom){
 function dn(nom){return ' data-nom="'+nom.replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'" ';}
 
 /* ── Init ──────────────────────────────────────────────────────── */
+function parseDate(s){var p=(s||'').split('/');return p.length===3?p[2]+p[1]+p[0]:'0';}
 function byGenre(){
   return Object.keys(DATA).filter(function(k){return DATA[k].genre===GENRE;})
-    .sort(function(a,b){return (DATA[b].date||'')>(DATA[a].date||'')?1:-1;});
+    .sort(function(a,b){return parseDate(DATA[b].date)>parseDate(DATA[a].date)?1:-1;});
 }
 
 // Event delegation pour les profils nageurs
