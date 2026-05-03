@@ -11517,6 +11517,2332 @@
           "di": -3
         }
       ]
+    },
+    "golfo26_h": {
+      "conditions": "",
+      "label": "CdM Golfo Aranci 2026",
+      "date": "02/05/2026",
+      "genre": "H",
+      "type": "CDM",
+      "nb_series": 2,
+      "nq_par_serie": 10,
+      "fastest_serie": 2,
+      "stats_series": {
+        "1": {
+          "1er": "15:54.0",
+          "dernier_q": "15:58.9",
+          "premier_elim": "15:59.0",
+          "ecart_1_q": 4.9,
+          "marge_coupure": 0.1,
+          "nb_starts": 33,
+          "nb_qualifies": 10
+        },
+        "2": {
+          "1er": "15:51.1",
+          "dernier_q": "15:57.0",
+          "premier_elim": "15:57.1",
+          "ecart_1_q": 5.9,
+          "marge_coupure": 0.1,
+          "nb_starts": 34,
+          "nb_qualifies": 11
+        }
+      },
+      "series": {
+        "1": [
+          {
+            "rang": 1,
+            "nom": "FILADELLI Andrea",
+            "noc": "ITA",
+            "temps": "15:54.0",
+            "temps_s": 954.0,
+            "ecart_s": 0.0,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 935.14,
+            "t800": 486.24,
+            "t400": 234.12
+          },
+          {
+            "rang": 2,
+            "nom": "FONTAINE Logan",
+            "noc": "FRA",
+            "temps": "15:55.2",
+            "temps_s": 955.2,
+            "ecart_s": 1.2,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 904.5,
+            "t800": 471.92,
+            "t400": 226.6
+          },
+          {
+            "rang": 3,
+            "nom": "BETLEHEM David",
+            "noc": "HUN",
+            "temps": "15:55.3",
+            "temps_s": 955.3,
+            "ecart_s": 1.3,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 880.91,
+            "t800": 467.02,
+            "t400": 227.86
+          },
+          {
+            "rang": 4,
+            "nom": "PUSKOVITCH Ivan",
+            "noc": "USA",
+            "temps": "15:55.4",
+            "temps_s": 955.4,
+            "ecart_s": 1.4,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 923.03,
+            "t800": 492.77,
+            "t400": 244.5
+          },
+          {
+            "rang": 5,
+            "nom": "SLOMAN Nicholas",
+            "noc": "AUS",
+            "temps": "15:55.9",
+            "temps_s": 955.9,
+            "ecart_s": 1.9,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 911.72,
+            "t800": 480.16,
+            "t400": 235.39
+          },
+          {
+            "rang": 6,
+            "nom": "GUIDI Marcello",
+            "noc": "ITA",
+            "temps": "15:56.3",
+            "temps_s": 956.3,
+            "ecart_s": 2.3,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 903.72,
+            "t800": 484.78,
+            "t400": 241.7
+          },
+          {
+            "rang": 7,
+            "nom": "GARCIA Mateo",
+            "noc": "ESP",
+            "temps": "15:56.3",
+            "temps_s": 956.3,
+            "ecart_s": 2.3,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 922.91,
+            "t800": 480.8,
+            "t400": 232.63
+          },
+          {
+            "rang": 8,
+            "nom": "PARKER Ethan",
+            "noc": "FRA",
+            "temps": "15:57.0",
+            "temps_s": 957.0,
+            "ecart_s": 3.0,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 918.08,
+            "t800": 482.51,
+            "t400": 237.06
+          },
+          {
+            "rang": 9,
+            "nom": "DIODATO Matteo",
+            "noc": "ITA",
+            "temps": "15:58.0",
+            "temps_s": 958.0,
+            "ecart_s": 4.0,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 898.88,
+            "t800": 475.35,
+            "t400": 231.3
+          },
+          {
+            "rang": 10,
+            "nom": "ARMSTRONG Bailey",
+            "noc": "AUS",
+            "temps": "15:58.9",
+            "temps_s": 958.9,
+            "ecart_s": 4.9,
+            "qualifie": true,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 11,
+            "nom": "BRANDT DE MACEDO Leonardo",
+            "noc": "BRA",
+            "temps": "15:59.0",
+            "temps_s": 959.0,
+            "ecart_s": 5.0,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 12,
+            "nom": "GIORDANO Pasquale",
+            "noc": "ITA",
+            "temps": "16:00.3",
+            "temps_s": 960.3,
+            "ecart_s": 6.3,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 13,
+            "nom": "BROWN Joshua",
+            "noc": "USA",
+            "temps": "16:01.2",
+            "temps_s": 961.2,
+            "ecart_s": 7.2,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 918.14,
+            "t800": 480.17,
+            "t400": 235.05
+          },
+          {
+            "rang": 14,
+            "nom": "VERANI Dario",
+            "noc": "ITA",
+            "temps": "16:01.2",
+            "temps_s": 961.2,
+            "ecart_s": 7.2,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 925.88,
+            "t800": 485.12,
+            "t400": 236.16
+          },
+          {
+            "rang": 15,
+            "nom": "BONAVOTA Davide Giuseppe",
+            "noc": "ITA",
+            "temps": "16:02.5",
+            "temps_s": 962.5,
+            "ecart_s": 8.5,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 16,
+            "nom": "CARTER Daniel",
+            "noc": "AUS",
+            "temps": "16:02.6",
+            "temps_s": 962.6,
+            "ecart_s": 8.6,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 961.0,
+            "t800": 498.15,
+            "t400": 247.91
+          },
+          {
+            "rang": 17,
+            "nom": "TSUJIMORI Kaito",
+            "noc": "JPN",
+            "temps": "16:02.7",
+            "temps_s": 962.7,
+            "ecart_s": 8.7,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 908.3,
+            "t800": 474.5,
+            "t400": 231.91
+          },
+          {
+            "rang": 18,
+            "nom": "OCCHIPINTI Alessio",
+            "noc": "ITA",
+            "temps": "16:05.1",
+            "temps_s": 965.1,
+            "ecart_s": 11.1,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 19,
+            "nom": "KAPALA Bartosz",
+            "noc": "POL",
+            "temps": "16:06.3",
+            "temps_s": 966.3,
+            "ecart_s": 12.3,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 915.69,
+            "t800": 481.18,
+            "t400": 234.31
+          },
+          {
+            "rang": 20,
+            "nom": "TABUCHI Kaito",
+            "noc": "JPN",
+            "temps": "16:06.6",
+            "temps_s": 966.6,
+            "ecart_s": 12.6,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 885.57,
+            "t800": 473.36,
+            "t400": 226.22
+          },
+          {
+            "rang": 21,
+            "nom": "GRAVLEY Dylan",
+            "noc": "USA",
+            "temps": "16:07.1",
+            "temps_s": 967.1,
+            "ecart_s": 13.1,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 940.07,
+            "t800": 495.08,
+            "t400": 248.27
+          },
+          {
+            "rang": 22,
+            "nom": "LAURICELLA Giovanni",
+            "noc": "ITA",
+            "temps": "16:07.1",
+            "temps_s": 967.1,
+            "ecart_s": 13.1,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 23,
+            "nom": "WAINMAN Benjamin",
+            "noc": "AUS",
+            "temps": "16:07.1",
+            "temps_s": 967.1,
+            "ecart_s": 13.1,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 24,
+            "nom": "PASKO Jaan",
+            "noc": "EST",
+            "temps": "16:07.6",
+            "temps_s": 967.6,
+            "ecart_s": 13.6,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 25,
+            "nom": "DREVERMAN Thomas James",
+            "noc": "AUS",
+            "temps": "16:08.6",
+            "temps_s": 968.6,
+            "ecart_s": 14.6,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 26,
+            "nom": "BOROVKA Denis",
+            "noc": "CZE",
+            "temps": "16:11.1",
+            "temps_s": 971.1,
+            "ecart_s": 17.1,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1004.43,
+            "t800": 530.65,
+            "t400": 259.31
+          },
+          {
+            "rang": 27,
+            "nom": "RICCIARDI Niccolo",
+            "noc": "ITA",
+            "temps": "16:12.6",
+            "temps_s": 972.6,
+            "ecart_s": 18.6,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 28,
+            "nom": "DAMONTE COLA Davide",
+            "noc": "ITA",
+            "temps": "16:16.5",
+            "temps_s": 976.5,
+            "ecart_s": 22.5,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 29,
+            "nom": "RAZZETTI Alberto",
+            "noc": "ITA",
+            "temps": "16:42.2",
+            "temps_s": 1002.2,
+            "ecart_s": 48.2,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 30,
+            "nom": "OBELE CISNEROS Diego",
+            "noc": "MEX",
+            "temps": "16:54.4",
+            "temps_s": 1014.4,
+            "ecart_s": 60.4,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 31,
+            "nom": "COMINATO Alessandro",
+            "noc": "ITA",
+            "temps": "17:03.4",
+            "temps_s": 1023.4,
+            "ecart_s": 69.4,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 32,
+            "nom": "ALOISI Filippo",
+            "noc": "ITA",
+            "temps": "17:07.1",
+            "temps_s": 1027.1,
+            "ecart_s": 73.1,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 33,
+            "nom": "ESCOBAR Percy",
+            "noc": "BOL",
+            "temps": "18:32.3",
+            "temps_s": 1112.3,
+            "ecart_s": 158.3,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          }
+        ],
+        "2": [
+          {
+            "rang": 1,
+            "nom": "PALTRINIERI Gregorio",
+            "noc": "ITA",
+            "temps": "15:51.1",
+            "temps_s": 951.1,
+            "ecart_s": 0.0,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 874.55,
+            "t800": 459.38,
+            "t400": 229.27
+          },
+          {
+            "rang": 2,
+            "nom": "STREHLKE DELGADO Paulo",
+            "noc": "MEX",
+            "temps": "15:53.1",
+            "temps_s": 953.1,
+            "ecart_s": 2.0,
+            "qualifie": true,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 3,
+            "nom": "MARCHELLO Davide",
+            "noc": "ITA",
+            "temps": "15:54.9",
+            "temps_s": 954.9,
+            "ecart_s": 3.8,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 908.99,
+            "t800": 473.32,
+            "t400": 227.43
+          },
+          {
+            "rang": 4,
+            "nom": "LINEY Euan",
+            "noc": "AUS",
+            "temps": "15:55.4",
+            "temps_s": 955.4,
+            "ecart_s": 4.3,
+            "qualifie": true,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 5,
+            "nom": "LEE Kyle",
+            "noc": "AUS",
+            "temps": "15:55.5",
+            "temps_s": 955.5,
+            "ecart_s": 4.4,
+            "qualifie": true,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 6,
+            "nom": "GIOVANNONI Ivan",
+            "noc": "ITA",
+            "temps": "15:55.6",
+            "temps_s": 955.6,
+            "ecart_s": 4.5,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 904.7,
+            "t800": 474.29,
+            "t400": 231.68
+          },
+          {
+            "rang": 7,
+            "nom": "RAYMOND Thomas Edward",
+            "noc": "AUS",
+            "temps": "15:55.6",
+            "temps_s": 955.6,
+            "ecart_s": 4.5,
+            "qualifie": true,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 8,
+            "nom": "OLIVIER Marc-Antoine",
+            "noc": "FRA",
+            "temps": "15:55.9",
+            "temps_s": 955.9,
+            "ecart_s": 4.8,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 895.19,
+            "t800": 469.14,
+            "t400": 229.1
+          },
+          {
+            "rang": 9,
+            "nom": "DALU Fabio",
+            "noc": "ITA",
+            "temps": "15:56.8",
+            "temps_s": 956.8,
+            "ecart_s": 5.7,
+            "qualifie": true,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 10,
+            "nom": "KLEMET Oliver",
+            "noc": "GER",
+            "temps": "15:56.9",
+            "temps_s": 956.9,
+            "ecart_s": 5.8,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 879.03,
+            "t800": 464.61,
+            "t400": 222.81
+          },
+          {
+            "rang": 11,
+            "nom": "STRAKA Martin",
+            "noc": "CZE",
+            "temps": "15:57.0",
+            "temps_s": 957.0,
+            "ecart_s": 5.9,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 971.43,
+            "t800": 507.86,
+            "t400": 248.69
+          },
+          {
+            "rang": 12,
+            "nom": "JACOBS Colin",
+            "noc": "USA",
+            "temps": "15:57.1",
+            "temps_s": 957.1,
+            "ecart_s": 6.0,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 916.33,
+            "t800": 482.02,
+            "t400": 233.66
+          },
+          {
+            "rang": 13,
+            "nom": "MENDEZ PUGA Mario",
+            "noc": "ESP",
+            "temps": "15:57.1",
+            "temps_s": 957.1,
+            "ecart_s": 6.0,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 924.75,
+            "t800": 484.86,
+            "t400": 235.06
+          },
+          {
+            "rang": 14,
+            "nom": "EZAWA Riku",
+            "noc": "JPN",
+            "temps": "15:57.3",
+            "temps_s": 957.3,
+            "ecart_s": 6.2,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 921.23,
+            "t800": 486.28,
+            "t400": 232.95
+          },
+          {
+            "rang": 15,
+            "nom": "MINAMIDE Taishin",
+            "noc": "JPN",
+            "temps": "15:57.4",
+            "temps_s": 957.4,
+            "ecart_s": 6.3,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 941.52,
+            "t800": 496.6,
+            "t400": 244.2
+          },
+          {
+            "rang": 16,
+            "nom": "MESMACQUE Emile",
+            "noc": "FRA",
+            "temps": "15:57.9",
+            "temps_s": 957.9,
+            "ecart_s": 6.8,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 952.45,
+            "t800": 490.19,
+            "t400": 237.1
+          },
+          {
+            "rang": 17,
+            "nom": "ACERENZA Domenico",
+            "noc": "ITA",
+            "temps": "15:58.5",
+            "temps_s": 958.5,
+            "ecart_s": 7.4,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 912.56,
+            "t800": 477.66,
+            "t400": 231.94
+          },
+          {
+            "rang": 18,
+            "nom": "KARL Luca",
+            "noc": "AUT",
+            "temps": "15:58.6",
+            "temps_s": 958.6,
+            "ecart_s": 7.5,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 916.79,
+            "t800": 483.28,
+            "t400": 236.64
+          },
+          {
+            "rang": 19,
+            "nom": "MARONGIU Giovanni",
+            "noc": "ITA",
+            "temps": "15:59.7",
+            "temps_s": 959.7,
+            "ecart_s": 8.6,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 20,
+            "nom": "CASSINI Franco Ivo",
+            "noc": "ARG",
+            "temps": "16:01.8",
+            "temps_s": 961.8,
+            "ecart_s": 10.7,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t800": 483.34
+          },
+          {
+            "rang": 20,
+            "nom": "DE TULLIO Luca",
+            "noc": "ITA",
+            "temps": "16:01.8",
+            "temps_s": 961.8,
+            "ecart_s": 10.7,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 978.03,
+            "t800": 516.33,
+            "t400": 253.06
+          },
+          {
+            "rang": 22,
+            "nom": "LORENZETTI Claudio",
+            "noc": "SUI",
+            "temps": "16:01.9",
+            "temps_s": 961.9,
+            "ecart_s": 10.8,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 23,
+            "nom": "ILARIO Giuseppe",
+            "noc": "ITA",
+            "temps": "16:01.9",
+            "temps_s": 961.9,
+            "ecart_s": 10.8,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 24,
+            "nom": "CONFORTO Andrea",
+            "noc": "ITA",
+            "temps": "16:04.2",
+            "temps_s": 964.2,
+            "ecart_s": 13.1,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 25,
+            "nom": "RINALDI Filippo",
+            "noc": "ITA",
+            "temps": "16:14.8",
+            "temps_s": 974.8,
+            "ecart_s": 23.7,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 26,
+            "nom": "DETTI Gabriele",
+            "noc": "ITA",
+            "temps": "16:17.2",
+            "temps_s": 977.2,
+            "ecart_s": 26.1,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 27,
+            "nom": "CASO Vincenzo",
+            "noc": "ITA",
+            "temps": "16:20.3",
+            "temps_s": 980.3,
+            "ecart_s": 29.2,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 28,
+            "nom": "HAYES Conor Patrick",
+            "noc": "AUS",
+            "temps": "16:52.5",
+            "temps_s": 1012.5,
+            "ecart_s": 61.4,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 29,
+            "nom": "ALOISI Gabriele",
+            "noc": "ITA",
+            "temps": "16:57.6",
+            "temps_s": 1017.6,
+            "ecart_s": 66.5,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 30,
+            "nom": "MURPHY Dylan Hunter",
+            "noc": "AUS",
+            "temps": "16:59.5",
+            "temps_s": 1019.5,
+            "ecart_s": 68.4,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 31,
+            "nom": "MARBACH Alessio",
+            "noc": "SUI",
+            "temps": "16:59.7",
+            "temps_s": 1019.7,
+            "ecart_s": 68.6,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          }
+        ]
+      },
+      "placement_demi": [],
+      "demi": [
+        {
+          "rang": 1,
+          "nom": "BETLEHEM David",
+          "noc": "HUN",
+          "temps": "11:01.8",
+          "temps_s": 661.8,
+          "ecart_s": 0.0,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 880.91,
+          "t800": 467.02,
+          "t400": 227.86
+        },
+        {
+          "rang": 2,
+          "nom": "PALTRINIERI Gregorio",
+          "noc": "ITA",
+          "temps": "11:04.9",
+          "temps_s": 664.9,
+          "ecart_s": 3.1,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 874.55,
+          "t800": 459.38,
+          "t400": 229.27
+        },
+        {
+          "rang": 3,
+          "nom": "ARMSTRONG Bailey",
+          "noc": "AUS",
+          "temps": "11:06.6",
+          "temps_s": 666.6,
+          "ecart_s": 4.8,
+          "qualifie": true,
+          "rv": null,
+          "di": null
+        },
+        {
+          "rang": 4,
+          "nom": "STREHLKE DELGADO Paulo",
+          "noc": "MEX",
+          "temps": "11:06.9",
+          "temps_s": 666.9,
+          "ecart_s": 5.1,
+          "qualifie": true,
+          "rv": null,
+          "di": null
+        },
+        {
+          "rang": 5,
+          "nom": "FILADELLI Andrea",
+          "noc": "ITA",
+          "temps": "11:07.2",
+          "temps_s": 667.2,
+          "ecart_s": 5.4,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 935.14,
+          "t800": 486.24,
+          "t400": 234.12
+        },
+        {
+          "rang": 6,
+          "nom": "PUSKOVITCH Ivan",
+          "noc": "USA",
+          "temps": "11:07.2",
+          "temps_s": 667.2,
+          "ecart_s": 5.4,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 923.03,
+          "t800": 492.77,
+          "t400": 244.5
+        },
+        {
+          "rang": 7,
+          "nom": "KLEMET Oliver",
+          "noc": "GER",
+          "temps": "11:07.3",
+          "temps_s": 667.3,
+          "ecart_s": 5.5,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 879.03,
+          "t800": 464.61,
+          "t400": 222.81
+        },
+        {
+          "rang": 8,
+          "nom": "SLOMAN Nicholas",
+          "noc": "AUS",
+          "temps": "11:07.5",
+          "temps_s": 667.5,
+          "ecart_s": 5.7,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 911.72,
+          "t800": 480.16,
+          "t400": 235.39
+        },
+        {
+          "rang": 9,
+          "nom": "GUIDI Marcello",
+          "noc": "ITA",
+          "temps": "11:07.6",
+          "temps_s": 667.6,
+          "ecart_s": 5.8,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 903.72,
+          "t800": 484.78,
+          "t400": 241.7
+        },
+        {
+          "rang": 10,
+          "nom": "MARCHELLO Davide",
+          "noc": "ITA",
+          "temps": "11:07.7",
+          "temps_s": 667.7,
+          "ecart_s": 5.9,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 908.99,
+          "t800": 473.32,
+          "t400": 227.43
+        },
+        {
+          "rang": 11,
+          "nom": "DALU Fabio",
+          "noc": "ITA",
+          "temps": "11:07.9",
+          "temps_s": 667.9,
+          "ecart_s": 6.1,
+          "qualifie": false,
+          "rv": null,
+          "di": null
+        },
+        {
+          "rang": 12,
+          "nom": "PARKER Ethan",
+          "noc": "FRA",
+          "temps": "11:08.5",
+          "temps_s": 668.5,
+          "ecart_s": 6.7,
+          "qualifie": false,
+          "rv": null,
+          "di": null,
+          "t1500": 918.08,
+          "t800": 482.51,
+          "t400": 237.06
+        },
+        {
+          "rang": 13,
+          "nom": "GARCIA Mateo",
+          "noc": "ESP",
+          "temps": "11:08.6",
+          "temps_s": 668.6,
+          "ecart_s": 6.8,
+          "qualifie": false,
+          "rv": null,
+          "di": null,
+          "t1500": 922.91,
+          "t800": 480.8,
+          "t400": 232.63
+        },
+        {
+          "rang": 14,
+          "nom": "LEE Kyle",
+          "noc": "AUS",
+          "temps": "11:09.7",
+          "temps_s": 669.7,
+          "ecart_s": 7.9,
+          "qualifie": false,
+          "rv": null,
+          "di": null
+        },
+        {
+          "rang": 15,
+          "nom": "GIOVANNONI Ivan",
+          "noc": "ITA",
+          "temps": "11:10.4",
+          "temps_s": 670.4,
+          "ecart_s": 8.6,
+          "qualifie": false,
+          "rv": null,
+          "di": null,
+          "t1500": 904.7,
+          "t800": 474.29,
+          "t400": 231.68
+        },
+        {
+          "rang": 16,
+          "nom": "LINEY Euan",
+          "noc": "AUS",
+          "temps": "11:11.5",
+          "temps_s": 671.5,
+          "ecart_s": 9.7,
+          "qualifie": false,
+          "rv": null,
+          "di": null
+        },
+        {
+          "rang": 17,
+          "nom": "STRAKA Martin",
+          "noc": "CZE",
+          "temps": "11:11.6",
+          "temps_s": 671.6,
+          "ecart_s": 9.8,
+          "qualifie": false,
+          "rv": null,
+          "di": null,
+          "t1500": 971.43,
+          "t800": 507.86,
+          "t400": 248.69
+        },
+        {
+          "rang": 18,
+          "nom": "FONTAINE Logan",
+          "noc": "FRA",
+          "temps": "11:12.3",
+          "temps_s": 672.3,
+          "ecart_s": 10.5,
+          "qualifie": false,
+          "rv": null,
+          "di": null,
+          "t1500": 904.5,
+          "t800": 471.92,
+          "t400": 226.6
+        },
+        {
+          "rang": 19,
+          "nom": "DIODATO Matteo",
+          "noc": "ITA",
+          "temps": "11:13.0",
+          "temps_s": 673.0,
+          "ecart_s": 11.2,
+          "qualifie": false,
+          "rv": null,
+          "di": null,
+          "t1500": 898.88,
+          "t800": 475.35,
+          "t400": 231.3
+        },
+        {
+          "rang": 20,
+          "nom": "RAYMOND Thomas Edward",
+          "noc": "AUS",
+          "temps": "11:14.2",
+          "temps_s": 674.2,
+          "ecart_s": 12.4,
+          "qualifie": false,
+          "rv": null,
+          "di": null
+        }
+      ],
+      "placement_finale": [],
+      "finale": [
+        {
+          "rang": 1,
+          "nom": "BETLEHEM David",
+          "noc": "HUN",
+          "temps": "6:00.4",
+          "temps_s": 360.4,
+          "ecart_s": 0.0,
+          "rv": null,
+          "di": null,
+          "t1500": 880.91,
+          "t800": 467.02,
+          "t400": 227.86
+        },
+        {
+          "rang": 2,
+          "nom": "STREHLKE DELGADO Paulo",
+          "noc": "MEX",
+          "temps": "6:01.7",
+          "temps_s": 361.7,
+          "ecart_s": 1.3,
+          "rv": null,
+          "di": null
+        },
+        {
+          "rang": 3,
+          "nom": "PALTRINIERI Gregorio",
+          "noc": "ITA",
+          "temps": "6:02.8",
+          "temps_s": 362.8,
+          "ecart_s": 2.4,
+          "rv": null,
+          "di": null,
+          "t1500": 874.55,
+          "t800": 459.38,
+          "t400": 229.27
+        },
+        {
+          "rang": 4,
+          "nom": "KLEMET Oliver",
+          "noc": "GER",
+          "temps": "6:03.0",
+          "temps_s": 363.0,
+          "ecart_s": 2.6,
+          "rv": null,
+          "di": null,
+          "t1500": 879.03,
+          "t800": 464.61,
+          "t400": 222.81
+        },
+        {
+          "rang": 5,
+          "nom": "FILADELLI Andrea",
+          "noc": "ITA",
+          "temps": "6:03.4",
+          "temps_s": 363.4,
+          "ecart_s": 3.0,
+          "rv": null,
+          "di": null,
+          "t1500": 935.14,
+          "t800": 486.24,
+          "t400": 234.12
+        },
+        {
+          "rang": 6,
+          "nom": "GUIDI Marcello",
+          "noc": "ITA",
+          "temps": "6:04.6",
+          "temps_s": 364.6,
+          "ecart_s": 4.2,
+          "rv": null,
+          "di": null,
+          "t1500": 903.72,
+          "t800": 484.78,
+          "t400": 241.7
+        },
+        {
+          "rang": 7,
+          "nom": "PUSKOVITCH Ivan",
+          "noc": "USA",
+          "temps": "6:04.7",
+          "temps_s": 364.7,
+          "ecart_s": 4.3,
+          "rv": null,
+          "di": null,
+          "t1500": 923.03,
+          "t800": 492.77,
+          "t400": 244.5
+        },
+        {
+          "rang": 8,
+          "nom": "SLOMAN Nicholas",
+          "noc": "AUS",
+          "temps": "6:05.1",
+          "temps_s": 365.1,
+          "ecart_s": 4.7,
+          "rv": null,
+          "di": null,
+          "t1500": 911.72,
+          "t800": 480.16,
+          "t400": 235.39
+        },
+        {
+          "rang": 9,
+          "nom": "MARCHELLO Davide",
+          "noc": "ITA",
+          "temps": "6:06.7",
+          "temps_s": 366.7,
+          "ecart_s": 6.3,
+          "rv": null,
+          "di": null,
+          "t1500": 908.99,
+          "t800": 473.32,
+          "t400": 227.43
+        },
+        {
+          "rang": 10,
+          "nom": "ARMSTRONG Bailey",
+          "noc": "AUS",
+          "temps": "6:06.8",
+          "temps_s": 366.8,
+          "ecart_s": 6.4,
+          "rv": null,
+          "di": null
+        }
+      ]
+    },
+    "golfo26_f": {
+      "conditions": "",
+      "label": "CdM Golfo Aranci 2026",
+      "date": "02/05/2026",
+      "genre": "F",
+      "type": "CDM",
+      "nb_series": 2,
+      "nq_par_serie": 10,
+      "fastest_serie": 1,
+      "stats_series": {
+        "1": {
+          "1er": "16:56.3",
+          "dernier_q": "17:02.2",
+          "premier_elim": "17:02.7",
+          "ecart_1_q": 5.9,
+          "marge_coupure": 0.5,
+          "nb_starts": 24,
+          "nb_qualifies": 10
+        },
+        "2": {
+          "1er": "17:10.5",
+          "dernier_q": "17:17.5",
+          "premier_elim": "17:19.7",
+          "ecart_1_q": 7.0,
+          "marge_coupure": 2.2,
+          "nb_starts": 24,
+          "nb_qualifies": 10
+        }
+      },
+      "series": {
+        "1": [
+          {
+            "rang": 1,
+            "nom": "JOHNSON Moesha",
+            "noc": "AUS",
+            "temps": "16:56.3",
+            "temps_s": 1016.3,
+            "ecart_s": 0.0,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 957.85,
+            "t800": 505.42,
+            "t400": 249.0
+          },
+          {
+            "rang": 2,
+            "nom": "GOSE Isabel",
+            "noc": "GER",
+            "temps": "16:56.9",
+            "temps_s": 1016.9,
+            "ecart_s": 0.6,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 941.16,
+            "t800": 497.53,
+            "t400": 242.14
+          },
+          {
+            "rang": 3,
+            "nom": "DENIGAN Mariah",
+            "noc": "USA",
+            "temps": "16:58.2",
+            "temps_s": 1018.2,
+            "ecart_s": 1.9,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 979.02,
+            "t800": 514.93,
+            "t400": 255.11
+          },
+          {
+            "rang": 4,
+            "nom": "HANSEN Brinkleigh",
+            "noc": "USA",
+            "temps": "16:58.2",
+            "temps_s": 1018.2,
+            "ecart_s": 1.9,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 991.31,
+            "t800": 515.78,
+            "t400": 251.73
+          },
+          {
+            "rang": 5,
+            "nom": "RIMOLDI Rebecca",
+            "noc": "ITA",
+            "temps": "16:58.5",
+            "temps_s": 1018.5,
+            "ecart_s": 2.2,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 996.15,
+            "t800": 527.71,
+            "t400": 252.91
+          },
+          {
+            "rang": 6,
+            "nom": "MARTINEZ GUILLEN Angela",
+            "noc": "ESP",
+            "temps": "16:59.5",
+            "temps_s": 1019.5,
+            "ecart_s": 3.2,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 974.95,
+            "t800": 509.08,
+            "t400": 250.95
+          },
+          {
+            "rang": 7,
+            "nom": "PLESKOTOVA Julie",
+            "noc": "CZE",
+            "temps": "17:01.0",
+            "temps_s": 1021.0,
+            "ecart_s": 4.7,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 1043.08,
+            "t800": 547.92,
+            "t400": 266.2
+          },
+          {
+            "rang": 8,
+            "nom": "EBINA Airi",
+            "noc": "JPN",
+            "temps": "17:02.0",
+            "temps_s": 1022.0,
+            "ecart_s": 5.7,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 999.36,
+            "t800": 529.39,
+            "t400": 262.73
+          },
+          {
+            "rang": 9,
+            "nom": "POU Lisa",
+            "noc": "MON",
+            "temps": "17:02.2",
+            "temps_s": 1022.2,
+            "ecart_s": 5.9,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 994.73,
+            "t800": 520.02,
+            "t400": 257.6
+          },
+          {
+            "rang": 10,
+            "nom": "JOUISSE Caroline Laure",
+            "noc": "FRA",
+            "temps": "17:02.2",
+            "temps_s": 1022.2,
+            "ecart_s": 5.9,
+            "qualifie": true,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 11,
+            "nom": "TERLIZZI Ludovica",
+            "noc": "ITA",
+            "temps": "17:02.7",
+            "temps_s": 1022.7,
+            "ecart_s": 6.4,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1010.93,
+            "t800": 528.89,
+            "t400": 256.35
+          },
+          {
+            "rang": 12,
+            "nom": "CAPONI Linda",
+            "noc": "ITA",
+            "temps": "17:04.2",
+            "temps_s": 1024.2,
+            "ecart_s": 7.9,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1011.09,
+            "t800": 528.35,
+            "t400": 251.64
+          },
+          {
+            "rang": 13,
+            "nom": "DELACROIX Ines",
+            "noc": "FRA",
+            "temps": "17:04.3",
+            "temps_s": 1024.3,
+            "ecart_s": 8.0,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1006.1,
+            "t800": 528.72,
+            "t400": 260.16
+          },
+          {
+            "rang": 14,
+            "nom": "BERTON Giulia",
+            "noc": "ITA",
+            "temps": "17:06.0",
+            "temps_s": 1026.0,
+            "ecart_s": 9.7,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 998.68,
+            "t800": 526.57,
+            "t400": 258.98
+          },
+          {
+            "rang": 15,
+            "nom": "DEURLOO Sienna",
+            "noc": "AUS",
+            "temps": "17:06.5",
+            "temps_s": 1026.5,
+            "ecart_s": 10.2,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1019.64,
+            "t800": 536.45,
+            "t400": 263.47
+          },
+          {
+            "rang": 16,
+            "nom": "OSSOLI Alessia",
+            "noc": "ITA",
+            "temps": "17:08.1",
+            "temps_s": 1028.1,
+            "ecart_s": 11.8,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1019.68,
+            "t800": 534.36,
+            "t400": 261.62
+          },
+          {
+            "rang": 17,
+            "nom": "KASVIO Louna",
+            "noc": "FIN",
+            "temps": "17:08.5",
+            "temps_s": 1028.5,
+            "ecart_s": 12.2,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1011.3,
+            "t800": 529.61,
+            "t400": 259.69
+          },
+          {
+            "rang": 18,
+            "nom": "CESARANO Antonietta",
+            "noc": "ITA",
+            "temps": "17:10.1",
+            "temps_s": 1030.1,
+            "ecart_s": 13.8,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1023.13,
+            "t800": 518.2,
+            "t400": 248.97
+          },
+          {
+            "rang": 19,
+            "nom": "INAL Su",
+            "noc": "TUR",
+            "temps": "17:13.7",
+            "temps_s": 1033.7,
+            "ecart_s": 17.4,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1068.49,
+            "t800": 550.28,
+            "t400": 262.22
+          },
+          {
+            "rang": 20,
+            "nom": "KRITZINGER Tiana",
+            "noc": "AUS",
+            "temps": "17:14.4",
+            "temps_s": 1034.4,
+            "ecart_s": 18.1,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 976.04,
+            "t800": 512.63,
+            "t400": 251.73
+          },
+          {
+            "rang": 21,
+            "nom": "SIMS Bella",
+            "noc": "USA",
+            "temps": "17:15.5",
+            "temps_s": 1035.5,
+            "ecart_s": 19.2,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 975.87,
+            "t800": 502.36,
+            "t400": 243.25
+          },
+          {
+            "rang": 22,
+            "nom": "ADIR Ofek",
+            "noc": "ISR",
+            "temps": "17:16.0",
+            "temps_s": 1036.0,
+            "ecart_s": 19.7,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1030.12,
+            "t800": 535.17,
+            "t400": 262.32
+          },
+          {
+            "rang": 23,
+            "nom": "SALGADO GONZALEZ Yuritzi",
+            "noc": "MEX",
+            "temps": "17:25.3",
+            "temps_s": 1045.3,
+            "ecart_s": 29.0,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 24,
+            "nom": "GOLOS Emily",
+            "noc": "ISR",
+            "temps": "18:20.9",
+            "temps_s": 1100.9,
+            "ecart_s": 84.6,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1043.41,
+            "t800": 536.33,
+            "t400": 264.02
+          }
+        ],
+        "2": [
+          {
+            "rang": 1,
+            "nom": "KAJIMOTO Ichika",
+            "noc": "JPN",
+            "temps": "17:10.5",
+            "temps_s": 1030.5,
+            "ecart_s": 0.0,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 983.02,
+            "t800": 509.24,
+            "t400": 249.65
+          },
+          {
+            "rang": 2,
+            "nom": "BOY Lea",
+            "noc": "GER",
+            "temps": "17:10.5",
+            "temps_s": 1030.5,
+            "ecart_s": 0.0,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 1003.24,
+            "t800": 522.64,
+            "t400": 250.49
+          },
+          {
+            "rang": 3,
+            "nom": "OTERO FERNANDEZ Paula",
+            "noc": "ESP",
+            "temps": "17:11.9",
+            "temps_s": 1031.9,
+            "ecart_s": 1.4,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 976.61,
+            "t800": 516.44,
+            "t400": 250.5
+          },
+          {
+            "rang": 4,
+            "nom": "CESARANO Noemi",
+            "noc": "ITA",
+            "temps": "17:13.3",
+            "temps_s": 1033.3,
+            "ecart_s": 2.8,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 983.16,
+            "t800": 513.12,
+            "t400": 250.47
+          },
+          {
+            "rang": 5,
+            "nom": "FABIAN Bettina",
+            "noc": "HUN",
+            "temps": "17:13.3",
+            "temps_s": 1033.3,
+            "ecart_s": 2.8,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 987.39,
+            "t800": 517.33,
+            "t400": 248.86
+          },
+          {
+            "rang": 6,
+            "nom": "TRAVIS Brooke",
+            "noc": "USA",
+            "temps": "17:14.6",
+            "temps_s": 1034.6,
+            "ecart_s": 4.1,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 1002.59,
+            "t800": 524.83,
+            "t400": 258.28
+          },
+          {
+            "rang": 7,
+            "nom": "DAVISON-MCGOVERN J.",
+            "noc": "AUS",
+            "temps": "17:14.6",
+            "temps_s": 1034.6,
+            "ecart_s": 4.1,
+            "qualifie": true,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 8,
+            "nom": "TWICHELL Ashley",
+            "noc": "USA",
+            "temps": "17:15.4",
+            "temps_s": 1035.4,
+            "ecart_s": 4.9,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 968.07,
+            "t800": 512.75,
+            "t400": 253.31
+          },
+          {
+            "rang": 9,
+            "nom": "BAGAGLINI Ginevra",
+            "noc": "ITA",
+            "temps": "17:15.6",
+            "temps_s": 1035.6,
+            "ecart_s": 5.1,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 1016.54,
+            "t800": 535.09,
+            "t400": 263.04
+          },
+          {
+            "rang": 10,
+            "nom": "GUBECKA Chelsea",
+            "noc": "AUS",
+            "temps": "17:17.5",
+            "temps_s": 1037.5,
+            "ecart_s": 7.0,
+            "qualifie": true,
+            "rv": null,
+            "di": null,
+            "t1500": 994.14,
+            "t800": 518.44,
+            "t400": 254.19
+          },
+          {
+            "rang": 11,
+            "nom": "POZZOBON Barbara",
+            "noc": "ITA",
+            "temps": "17:19.7",
+            "temps_s": 1039.7,
+            "ecart_s": 9.2,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 990.47,
+            "t800": 525.73,
+            "t400": 260.73
+          },
+          {
+            "rang": 12,
+            "nom": "MARTIN Tayla",
+            "noc": "AUS",
+            "temps": "17:20.1",
+            "temps_s": 1040.1,
+            "ecart_s": 9.6,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1001.5,
+            "t800": 533.44,
+            "t400": 261.02
+          },
+          {
+            "rang": 13,
+            "nom": "SANCHEZ LORA Candela",
+            "noc": "ESP",
+            "temps": "17:20.3",
+            "temps_s": 1040.3,
+            "ecart_s": 9.8,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 998.48,
+            "t800": 525.41,
+            "t400": 258.54
+          },
+          {
+            "rang": 14,
+            "nom": "GAUDAIRE Lou-Ann Katy",
+            "noc": "FRA",
+            "temps": "17:20.4",
+            "temps_s": 1040.4,
+            "ecart_s": 9.9,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1013.57,
+            "t800": 537.47,
+            "t400": 258.56
+          },
+          {
+            "rang": 15,
+            "nom": "COCCORDANO Clemence",
+            "noc": "FRA",
+            "temps": "17:20.4",
+            "temps_s": 1040.4,
+            "ecart_s": 9.9,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1005.57,
+            "t800": 532.15,
+            "t400": 259.49
+          },
+          {
+            "rang": 16,
+            "nom": "BEUZEVILLE Macy May",
+            "noc": "AUS",
+            "temps": "17:21.5",
+            "temps_s": 1041.5,
+            "ecart_s": 11.0,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1038.75,
+            "t800": 546.3,
+            "t400": 266.53
+          },
+          {
+            "rang": 17,
+            "nom": "BUFFA Valerie",
+            "noc": "ITA",
+            "temps": "17:21.8",
+            "temps_s": 1041.8,
+            "ecart_s": 11.3,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 18,
+            "nom": "GIACOMINI Erika",
+            "noc": "ITA",
+            "temps": "17:22.0",
+            "temps_s": 1042.0,
+            "ecart_s": 11.5,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 19,
+            "nom": "TARASIEWICZ Klaudia",
+            "noc": "POL",
+            "temps": "17:22.1",
+            "temps_s": 1042.1,
+            "ecart_s": 11.6,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1004.12,
+            "t800": 519.61,
+            "t400": 251.13
+          },
+          {
+            "rang": 20,
+            "nom": "GIRAUDO Viola",
+            "noc": "ITA",
+            "temps": "17:23.8",
+            "temps_s": 1043.8,
+            "ecart_s": 13.3,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1039.33,
+            "t800": 538.89,
+            "t400": 261.44
+          },
+          {
+            "rang": 21,
+            "nom": "GIORDANINO Candela",
+            "noc": "ARG",
+            "temps": "17:29.4",
+            "temps_s": 1049.4,
+            "ecart_s": 18.9,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1018.29,
+            "t800": 534.71,
+            "t400": 261.38
+          },
+          {
+            "rang": 22,
+            "nom": "GENDARMI Alessandra",
+            "noc": "USA",
+            "temps": "17:35.3",
+            "temps_s": 1055.3,
+            "ecart_s": 24.8,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 1039.49,
+            "t800": 548.06,
+            "t400": 264.15
+          },
+          {
+            "rang": 23,
+            "nom": "MORENO VELASCO Dalia",
+            "noc": "MEX",
+            "temps": "17:36.3",
+            "temps_s": 1056.3,
+            "ecart_s": 25.8,
+            "qualifie": false,
+            "rv": null,
+            "di": null
+          },
+          {
+            "rang": 24,
+            "nom": "MANN Becca",
+            "noc": "USA",
+            "temps": "17:37.5",
+            "temps_s": 1057.5,
+            "ecart_s": 27.0,
+            "qualifie": false,
+            "rv": null,
+            "di": null,
+            "t1500": 965.42,
+            "t800": 501.77,
+            "t400": 247.09
+          }
+        ]
+      },
+      "placement_demi": [],
+      "demi": [
+        {
+          "rang": 1,
+          "nom": "JOHNSON Moesha",
+          "noc": "AUS",
+          "temps": "11:57.6",
+          "temps_s": 717.6,
+          "ecart_s": 0.0,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 957.85,
+          "t800": 505.42,
+          "t400": 249.0
+        },
+        {
+          "rang": 2,
+          "nom": "GOSE Isabel",
+          "noc": "GER",
+          "temps": "11:58.2",
+          "temps_s": 718.2,
+          "ecart_s": 0.6,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 941.16,
+          "t800": 497.53,
+          "t400": 242.14
+        },
+        {
+          "rang": 3,
+          "nom": "RIMOLDI Rebecca",
+          "noc": "ITA",
+          "temps": "11:58.5",
+          "temps_s": 718.5,
+          "ecart_s": 0.9,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 996.15,
+          "t800": 527.71,
+          "t400": 252.91
+        },
+        {
+          "rang": 4,
+          "nom": "BOY Lea",
+          "noc": "GER",
+          "temps": "11:59.4",
+          "temps_s": 719.4,
+          "ecart_s": 1.8,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 1003.24,
+          "t800": 522.64,
+          "t400": 250.49
+        },
+        {
+          "rang": 5,
+          "nom": "DENIGAN Mariah",
+          "noc": "USA",
+          "temps": "11:59.5",
+          "temps_s": 719.5,
+          "ecart_s": 1.9,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 979.02,
+          "t800": 514.93,
+          "t400": 255.11
+        },
+        {
+          "rang": 6,
+          "nom": "OTERO FERNANDEZ Paula",
+          "noc": "ESP",
+          "temps": "11:59.7",
+          "temps_s": 719.7,
+          "ecart_s": 2.1,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 976.61,
+          "t800": 516.44,
+          "t400": 250.5
+        },
+        {
+          "rang": 7,
+          "nom": "MARTINEZ GUILLEN Angela",
+          "noc": "ESP",
+          "temps": "12:00.6",
+          "temps_s": 720.6,
+          "ecart_s": 3.0,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 974.95,
+          "t800": 509.08,
+          "t400": 250.95
+        },
+        {
+          "rang": 8,
+          "nom": "EBINA Airi",
+          "noc": "JPN",
+          "temps": "12:01.0",
+          "temps_s": 721.0,
+          "ecart_s": 3.4,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 999.36,
+          "t800": 529.39,
+          "t400": 262.73
+        },
+        {
+          "rang": 9,
+          "nom": "HANSEN Brinkleigh",
+          "noc": "USA",
+          "temps": "12:01.0",
+          "temps_s": 721.0,
+          "ecart_s": 3.4,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 991.31,
+          "t800": 515.78,
+          "t400": 251.73
+        },
+        {
+          "rang": 10,
+          "nom": "FABIAN Bettina",
+          "noc": "HUN",
+          "temps": "12:01.5",
+          "temps_s": 721.5,
+          "ecart_s": 3.9,
+          "qualifie": true,
+          "rv": null,
+          "di": null,
+          "t1500": 987.39,
+          "t800": 517.33,
+          "t400": 248.86
+        },
+        {
+          "rang": 11,
+          "nom": "KAJIMOTO Ichika",
+          "noc": "JPN",
+          "temps": "12:02.2",
+          "temps_s": 722.2,
+          "ecart_s": 4.6,
+          "qualifie": false,
+          "rv": null,
+          "di": null,
+          "t1500": 983.02,
+          "t800": 509.24,
+          "t400": 249.65
+        },
+        {
+          "rang": 12,
+          "nom": "TWICHELL Ashley",
+          "noc": "USA",
+          "temps": "12:02.4",
+          "temps_s": 722.4,
+          "ecart_s": 4.8,
+          "qualifie": false,
+          "rv": null,
+          "di": null,
+          "t1500": 968.07,
+          "t800": 512.75,
+          "t400": 253.31
+        },
+        {
+          "rang": 13,
+          "nom": "POU Lisa",
+          "noc": "MON",
+          "temps": "12:03.2",
+          "temps_s": 723.2,
+          "ecart_s": 5.6,
+          "qualifie": false,
+          "rv": null,
+          "di": null,
+          "t1500": 994.73,
+          "t800": 520.02,
+          "t400": 257.6
+        },
+        {
+          "rang": 14,
+          "nom": "DAVISON-MCGOVERN J.",
+          "noc": "AUS",
+          "temps": "12:03.7",
+          "temps_s": 723.7,
+          "ecart_s": 6.1,
+          "qualifie": false,
+          "rv": null,
+          "di": null
+        },
+        {
+          "rang": 15,
+          "nom": "PLESKOTOVA Julie",
+          "noc": "CZE",
+          "temps": "12:04.4",
+          "temps_s": 724.4,
+          "ecart_s": 6.8,
+          "qualifie": false,
+          "rv": null,
+          "di": null,
+          "t1500": 1043.08,
+          "t800": 547.92,
+          "t400": 266.2
+        },
+        {
+          "rang": 16,
+          "nom": "CESARANO Noemi",
+          "noc": "ITA",
+          "temps": "12:07.9",
+          "temps_s": 727.9,
+          "ecart_s": 10.3,
+          "qualifie": false,
+          "rv": null,
+          "di": null,
+          "t1500": 983.16,
+          "t800": 513.12,
+          "t400": 250.47
+        },
+        {
+          "rang": 17,
+          "nom": "BAGAGLINI Ginevra",
+          "noc": "ITA",
+          "temps": "12:09.5",
+          "temps_s": 729.5,
+          "ecart_s": 11.9,
+          "qualifie": false,
+          "rv": null,
+          "di": null,
+          "t1500": 1016.54,
+          "t800": 535.09,
+          "t400": 263.04
+        },
+        {
+          "rang": 18,
+          "nom": "TRAVIS Brooke",
+          "noc": "USA",
+          "temps": "12:11.9",
+          "temps_s": 731.9,
+          "ecart_s": 14.3,
+          "qualifie": false,
+          "rv": null,
+          "di": null,
+          "t1500": 1002.59,
+          "t800": 524.83,
+          "t400": 258.28
+        },
+        {
+          "rang": 19,
+          "nom": "JOUISSE Caroline Laure",
+          "noc": "FRA",
+          "temps": "12:17.9",
+          "temps_s": 737.9,
+          "ecart_s": 20.3,
+          "qualifie": false,
+          "rv": null,
+          "di": null
+        },
+        {
+          "rang": 20,
+          "nom": "GUBECKA Chelsea",
+          "noc": "AUS",
+          "temps": "12:27.0",
+          "temps_s": 747.0,
+          "ecart_s": 29.4,
+          "qualifie": false,
+          "rv": null,
+          "di": null,
+          "t1500": 994.14,
+          "t800": 518.44,
+          "t400": 254.19
+        }
+      ],
+      "placement_finale": [],
+      "finale": [
+        {
+          "rang": 1,
+          "nom": "JOHNSON Moesha",
+          "noc": "AUS",
+          "temps": "6:18.6",
+          "temps_s": 378.6,
+          "ecart_s": 0.0,
+          "rv": null,
+          "di": null,
+          "t1500": 957.85,
+          "t800": 505.42,
+          "t400": 249.0
+        },
+        {
+          "rang": 2,
+          "nom": "GOSE Isabel",
+          "noc": "GER",
+          "temps": "6:19.8",
+          "temps_s": 379.8,
+          "ecart_s": 1.2,
+          "rv": null,
+          "di": null,
+          "t1500": 941.16,
+          "t800": 497.53,
+          "t400": 242.14
+        },
+        {
+          "rang": 3,
+          "nom": "OTERO FERNANDEZ Paula",
+          "noc": "ESP",
+          "temps": "6:22.8",
+          "temps_s": 382.8,
+          "ecart_s": 4.2,
+          "rv": null,
+          "di": null,
+          "t1500": 976.61,
+          "t800": 516.44,
+          "t400": 250.5
+        },
+        {
+          "rang": 4,
+          "nom": "BOY Lea",
+          "noc": "GER",
+          "temps": "6:29.5",
+          "temps_s": 389.5,
+          "ecart_s": 10.9,
+          "rv": null,
+          "di": null,
+          "t1500": 1003.24,
+          "t800": 522.64,
+          "t400": 250.49
+        },
+        {
+          "rang": 5,
+          "nom": "HANSEN Brinkleigh",
+          "noc": "USA",
+          "temps": "6:29.6",
+          "temps_s": 389.6,
+          "ecart_s": 11.0,
+          "rv": null,
+          "di": null,
+          "t1500": 991.31,
+          "t800": 515.78,
+          "t400": 251.73
+        },
+        {
+          "rang": 6,
+          "nom": "EBINA Airi",
+          "noc": "JPN",
+          "temps": "6:30.9",
+          "temps_s": 390.9,
+          "ecart_s": 12.3,
+          "rv": null,
+          "di": null,
+          "t1500": 999.36,
+          "t800": 529.39,
+          "t400": 262.73
+        },
+        {
+          "rang": 7,
+          "nom": "FABIAN Bettina",
+          "noc": "HUN",
+          "temps": "6:31.4",
+          "temps_s": 391.4,
+          "ecart_s": 12.8,
+          "rv": null,
+          "di": null,
+          "t1500": 987.39,
+          "t800": 517.33,
+          "t400": 248.86
+        },
+        {
+          "rang": 8,
+          "nom": "MARTINEZ GUILLEN Angela",
+          "noc": "ESP",
+          "temps": "6:33.8",
+          "temps_s": 393.8,
+          "ecart_s": 15.2,
+          "rv": null,
+          "di": null,
+          "t1500": 974.95,
+          "t800": 509.08,
+          "t400": 250.95
+        },
+        {
+          "rang": 9,
+          "nom": "DENIGAN Mariah",
+          "noc": "USA",
+          "temps": "6:34.5",
+          "temps_s": 394.5,
+          "ecart_s": 15.9,
+          "rv": null,
+          "di": null,
+          "t1500": 979.02,
+          "t800": 514.93,
+          "t400": 255.11
+        },
+        {
+          "rang": 10,
+          "nom": "RIMOLDI Rebecca",
+          "noc": "ITA",
+          "temps": "6:35.0",
+          "temps_s": 395.0,
+          "ecart_s": 16.4,
+          "rv": null,
+          "di": null,
+          "t1500": 996.15,
+          "t800": 527.71,
+          "t400": 252.91
+        }
+      ]
     }
   },
   "KO_HF": {
@@ -11655,6 +13981,15 @@
         "n": 48,
         "rv": 1,
         "di": 0
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 1,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "TADDEUCCI Ginevra": [
@@ -12048,6 +14383,15 @@
         "n": 48,
         "rv": 11,
         "di": 3
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 7,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "MARTINEZ GUILLEN Angela": [
@@ -12185,6 +14529,15 @@
         "n": 48,
         "rv": 5,
         "di": 3
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 8,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "CAPONI Linda": [
@@ -12232,6 +14585,15 @@
         "n": 36,
         "rv": 17,
         "di": 8
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 22,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "POZZOBON Barbara": [
@@ -12360,6 +14722,15 @@
         "n": 36,
         "rv": 10,
         "di": 0
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 33,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "BERTON Giulia": [
@@ -12389,6 +14760,15 @@
         "n": 36,
         "rv": 14,
         "di": 3
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 24,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "ERSHOVA Margarita": [
@@ -12597,6 +14977,15 @@
         "n": 48,
         "rv": 27,
         "di": 8
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 27,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "OTERO FERNANDEZ Paula": [
@@ -12671,6 +15060,15 @@
         "n": 48,
         "rv": 7,
         "di": -10
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 3,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "WENSKE Fabienne": [
@@ -12801,6 +15199,15 @@
         "n": 48,
         "rv": 18,
         "di": 8
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 35,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "DYSON Ella": [
@@ -12877,6 +15284,15 @@
         "n": 48,
         "rv": 14,
         "di": -8
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 37,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "ROSA Mafalda": [
@@ -13061,6 +15477,15 @@
         "n": 36,
         "rv": 23,
         "di": -2
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 42,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "NAGY Napsugar": [
@@ -13182,6 +15607,15 @@
         "n": 48,
         "rv": 37,
         "di": 16
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 25,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "GAUDAIRE Lou-Ann Katy": [
@@ -13202,6 +15636,15 @@
         "n": 48,
         "rv": 24,
         "di": -14
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 36,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "MENDES Mariana": [
@@ -13381,6 +15824,15 @@
         "n": 48,
         "rv": 23,
         "di": 18
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 41,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "JOUISSE Caroline Laure": [
@@ -13527,6 +15979,15 @@
         "n": 48,
         "rv": 34,
         "di": 22
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 29,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "CUNHA Ana Marcela": [
@@ -13819,6 +16280,15 @@
         "n": 48,
         "rv": 8,
         "di": -6
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 9,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "MIHALYVARI-FARKAS Viktor": [
@@ -13958,6 +16428,15 @@
         "n": 48,
         "rv": 12,
         "di": -1
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 23,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "TRAVIS Brooke": [
@@ -14005,6 +16484,15 @@
         "n": 48,
         "rv": 21,
         "di": -8
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 28,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "RIEDER Celine": [
@@ -14146,6 +16634,15 @@
         "n": 48,
         "rv": 31,
         "di": 4
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 26,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "BENESOVA Alena": [
@@ -14486,6 +16983,15 @@
         "n": 48,
         "rv": 10,
         "di": -1
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 21,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "de VALDES Maria": [
@@ -14580,6 +17086,15 @@
         "n": 48,
         "rv": 16,
         "di": 12
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 23,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "MIHALYVARI-FARKAS Viktoria": [
@@ -14813,6 +17328,15 @@
         "n": 48,
         "rv": 20,
         "di": -6
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 34,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "JUNGBLUT Viviane": [
@@ -14997,6 +17521,15 @@
         "n": 48,
         "rv": 13,
         "di": -2
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 5,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "KOZIAKINA Polina": [
@@ -15037,6 +17570,15 @@
         "n": 48,
         "rv": 41,
         "di": 21
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 29,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "GIORDANINO Candela": [
@@ -15111,6 +17653,15 @@
         "n": 48,
         "rv": 29,
         "di": -4
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 44,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "MARTINEZ Danna": [
@@ -15431,6 +17982,15 @@
         "n": 48,
         "rv": 15,
         "di": -3
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 30,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "SPIWOKS Jeannette": [
@@ -15626,6 +18186,15 @@
         "n": 23,
         "rv": 19,
         "di": 0
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 32,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "ALANIS HERNANDEZ Paulina": [
@@ -15944,6 +18513,15 @@
         "n": 48,
         "rv": 19,
         "di": 3
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 6,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "van ROUWENDAAL Sharon": [
@@ -16276,6 +18854,15 @@
         "n": 48,
         "rv": 3,
         "di": -36
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 22,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "XIN Xin": [
@@ -16531,6 +19118,15 @@
         "n": 48,
         "rv": 22,
         "di": 15
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 4,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "SANTONI Veronica": [
@@ -17859,6 +20455,15 @@
         "n": 23,
         "rv": 22,
         "di": 0
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 48,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "SHWARTZ Omer": [
@@ -18208,6 +20813,15 @@
         "n": 48,
         "rv": 24,
         "di": -8
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 21,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "LENZI Eva": [
@@ -18910,6 +21524,15 @@
         "n": 48,
         "rv": 2,
         "di": -21
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 47,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "KRITZINGER Tiana": [
@@ -18921,6 +21544,15 @@
         "n": 48,
         "rv": 6,
         "di": -18
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 30,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "MONACO Bianca Alexis": [
@@ -18965,6 +21597,15 @@
         "n": 48,
         "rv": 35,
         "di": -2
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 38,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "DECRAENE Sioban": [
@@ -18987,6 +21628,15 @@
         "n": 48,
         "rv": 30,
         "di": -11
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 25,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ],
     "SMITH Rylee Mae": [
@@ -19020,6 +21670,138 @@
         "n": 48,
         "rv": 40,
         "di": -8
+      }
+    ],
+    "GOSE Isabel": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 2,
+        "n": 50,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "RIMOLDI Rebecca": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 10,
+        "n": 50,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "DAVISON-MCGOVERN J.": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 24,
+        "n": 50,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "CESARANO Noemi": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 26,
+        "n": 50,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "BAGAGLINI Ginevra": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 27,
+        "n": 50,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "CESARANO Antonietta": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 28,
+        "n": 50,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "SIMS Bella": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 31,
+        "n": 50,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "BUFFA Valerie": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 39,
+        "n": 50,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "GIACOMINI Erika": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 40,
+        "n": 50,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "SALGADO GONZALEZ Yuritzi": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 43,
+        "n": 50,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "GENDARMI Alessandra": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 45,
+        "n": 50,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "MORENO VELASCO Dalia": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 46,
+        "n": 50,
+        "rv": null,
+        "di": null
       }
     ]
   },
@@ -19332,6 +22114,15 @@
         "n": 67,
         "rv": 3,
         "di": 2
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 1,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "ACERENZA Domenico": [
@@ -19451,6 +22242,15 @@
         "n": 67,
         "rv": 14,
         "di": 3
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 26,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "OLIVIER Marc-Antoine": [
@@ -19797,6 +22597,15 @@
         "n": 67,
         "rv": 30,
         "di": 27
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 5,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "GUIDI Marcello": [
@@ -19943,6 +22752,15 @@
         "n": 67,
         "rv": 10,
         "di": 6
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 6,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "PALTRINIERI Gregorio": [
@@ -20089,6 +22907,15 @@
         "n": 67,
         "rv": 1,
         "di": -18
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 3,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "VERANI Dario": [
@@ -20244,6 +23071,15 @@
         "n": 48,
         "rv": 22,
         "di": 14
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 32,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "GIORDANO Pasquale": [
@@ -20300,6 +23136,15 @@
         "n": 67,
         "rv": 27,
         "di": 22
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 30,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "DALU Fabio": [
@@ -20374,6 +23219,15 @@
         "n": 48,
         "rv": 14,
         "di": 3
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 21,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "KARL Luca": [
@@ -20448,6 +23302,15 @@
         "n": 67,
         "rv": 18,
         "di": -9
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 27,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "OCCHIPINTI Alessio": [
@@ -20477,6 +23340,15 @@
         "n": 48,
         "rv": 31,
         "di": 18
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 41,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "KOVACS-SERES Hunor": [
@@ -20971,6 +23843,15 @@
         "n": 67,
         "rv": 20,
         "di": 3
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 22,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "STEPANOV Aleksandr": [
@@ -21175,6 +24056,15 @@
         "n": 48,
         "rv": 37,
         "di": 17
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 34,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "MARCHELLO Davide": [
@@ -21195,6 +24085,15 @@
         "n": 48,
         "rv": 12,
         "di": -9
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 9,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "MENDEZ PUGA Mario": [
@@ -21242,6 +24141,15 @@
         "n": 67,
         "rv": 25,
         "di": 5
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 22,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "KLEMET Oliver": [
@@ -21361,6 +24269,15 @@
         "n": 48,
         "rv": 3,
         "di": -20
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 4,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "GIOVANNONI Ivan": [
@@ -21453,6 +24370,15 @@
         "n": 67,
         "rv": 12,
         "di": 5
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 25,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "STRAKA Martin": [
@@ -21644,6 +24570,15 @@
         "n": 67,
         "rv": 48,
         "di": 35
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 27,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "NIEDERBERGER Paul": [
@@ -21783,6 +24718,15 @@
         "n": 67,
         "rv": 28,
         "di": 12
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 36,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "CARDOSO Diogo": [
@@ -22160,6 +25104,15 @@
         "n": 67,
         "rv": 22,
         "di": 10
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 54,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "AMARAL Francisco": [
@@ -22377,6 +25330,15 @@
         "n": 67,
         "rv": 53,
         "di": 2
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 49,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "ULAC Dogukan": [
@@ -22722,6 +25684,15 @@
         "n": 67,
         "rv": 11,
         "di": -3
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 28,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "ARMSTRONG Bailey": [
@@ -22823,6 +25794,15 @@
         "n": 68,
         "rv": 49,
         "di": 11
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 10,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "MELECCHI Matheus": [
@@ -23052,6 +26032,15 @@
         "n": 67,
         "rv": 34,
         "di": 25
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 44,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "MESMACQUE Emile": [
@@ -23099,6 +26088,15 @@
         "n": 67,
         "rv": 42,
         "di": 14
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 25,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "KAPALA Bartosz": [
@@ -23164,6 +26162,15 @@
         "n": 67,
         "rv": 16,
         "di": -31
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 42,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "LAURICELLA Giovanni": [
@@ -23184,6 +26191,15 @@
         "n": 63,
         "rv": 36,
         "di": 4
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 45,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "KARPATI Mate": [
@@ -23327,6 +26343,15 @@
         "n": 67,
         "rv": 24,
         "di": 9
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 7,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "TRIPODI Tiziano": [
@@ -23496,6 +26521,15 @@
         "n": 67,
         "rv": 17,
         "di": -23
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 21,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "LEE Kyle": [
@@ -23543,6 +26577,15 @@
         "n": 67,
         "rv": 13,
         "di": -18
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 24,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "RAYMOND Thomas Edward": [
@@ -23599,6 +26642,15 @@
         "n": 59,
         "rv": 19,
         "di": -7
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 30,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "BROWN Eric Georges": [
@@ -24602,6 +27654,15 @@
         "n": 67,
         "rv": 36,
         "di": -1
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 24,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "SANZULLO Mario": [
@@ -24989,6 +28050,15 @@
         "n": 58,
         "rv": 13,
         "di": -34
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 2,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "ROBINSON Tobias Patrick": [
@@ -25834,6 +28904,15 @@
         "n": 68,
         "rv": 52,
         "di": 24
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 47,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "LOUW Henre": [
@@ -26738,6 +29817,15 @@
         "n": 67,
         "rv": 21,
         "di": -3
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 31,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "PUEBLA MARTINEZ Alejandr": [
@@ -27281,6 +30369,15 @@
         "n": 70,
         "rv": 25,
         "di": -22
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 51,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "D'AGOSTINO Andrea": [
@@ -27390,6 +30487,15 @@
         "n": 48,
         "rv": 43,
         "di": 8
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 50,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "NEMEC Daniel": [
@@ -28210,6 +31316,15 @@
         "n": 67,
         "rv": 15,
         "di": -40
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 59,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "LINEY Euan": [
@@ -28230,6 +31345,15 @@
         "n": 67,
         "rv": 5,
         "di": -30
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 26,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "SUDLOW Adam Daniel": [
@@ -28404,6 +31528,15 @@
         "n": 68,
         "rv": 40,
         "di": -8
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 35,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "SANTIAGO BETANCOR Raul": [
@@ -28629,6 +31762,15 @@
         "n": 67,
         "rv": 23,
         "di": -25
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 23,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "TABUCHI Kaito": [
@@ -28640,6 +31782,15 @@
         "n": 67,
         "rv": 4,
         "di": -46
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 43,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ],
     "YWANAGA PAPI Adrian": [
@@ -28727,6 +31878,246 @@
         "n": 68,
         "rv": 47,
         "di": 18
+      },
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 28,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "SLOMAN Nicholas": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 8,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "GARCIA Mateo": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 23,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "DIODATO Matteo": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 29,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "MARONGIU Giovanni": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 29,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "CASSINI Franco Ivo": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 33,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "BONAVOTA Davide Giuseppe": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 37,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "CARTER Daniel": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 38,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "TSUJIMORI Kaito": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 39,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "CONFORTO Andrea": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 40,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "WAINMAN Benjamin": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 46,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "DREVERMAN Thomas James": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 48,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "DAMONTE COLA Davide": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 52,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "DETTI Gabriele": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 53,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "RAZZETTI Alberto": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 55,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "HAYES Conor Patrick": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 56,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "OBELE CISNEROS Diego": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 57,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "ALOISI Gabriele": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 58,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "MARBACH Alessio": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 60,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "COMINATO Alessandro": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 61,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "ALOISI Filippo": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 62,
+        "n": 67,
+        "rv": null,
+        "di": null
+      }
+    ],
+    "ESCOBAR Percy": [
+      {
+        "l": "CdM Golfo Aranci 2026",
+        "d": "2026",
+        "t": "CDM",
+        "r": 63,
+        "n": 67,
+        "rv": null,
+        "di": null
       }
     ]
   },
@@ -29625,12 +33016,12 @@
       "wr": 126,
       "annee": null,
       "experience": 0,
-      "t400": "4:00.900",
-      "t800": "8:22.830",
-      "t1500": "16:11.550",
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.5439,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -29641,12 +33032,12 @@
       "wr": 75,
       "annee": null,
       "experience": 0,
-      "t400": "3:55.680",
-      "t800": "8:11.290",
-      "t1500": "15:45.090",
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.5872,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -29655,14 +33046,14 @@
       "noc": "AUS",
       "serie": 1,
       "wr": 117,
-      "annee": 2003,
+      "annee": null,
       "experience": 0,
-      "t400": "4:14.230",
-      "t800": "8:34.180",
-      "t1500": "16:13.200",
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.5413,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -29705,12 +33096,12 @@
       "wr": 165,
       "annee": null,
       "experience": 0,
-      "t400": "4:10.880",
-      "t800": "8:34.080",
-      "t1500": "16:17.570",
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.5344,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -29879,14 +33270,14 @@
       "noc": "ITA",
       "serie": 1,
       "wr": 156,
-      "annee": 2007,
-      "experience": 4,
-      "t400": "3:58.470",
-      "t800": "8:10.120",
-      "t1500": "15:34.270",
+      "annee": null,
+      "experience": 0,
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.6055,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -30088,13 +33479,13 @@
       "serie": 1,
       "wr": 137,
       "annee": null,
-      "experience": 6,
-      "t400": "4:02.420",
-      "t800": "8:26.130",
-      "t1500": "16:18.620",
+      "experience": 0,
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.5328,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -30104,13 +33495,13 @@
       "serie": 1,
       "wr": 25,
       "annee": null,
-      "experience": 9,
-      "t400": "3:59.060",
-      "t800": "8:08.070",
-      "t1500": "15:27.580",
+      "experience": 0,
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.6171,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -30120,13 +33511,13 @@
       "serie": 1,
       "wr": 49,
       "annee": null,
-      "experience": 26,
-      "t400": "4:02.040",
-      "t800": "8:27.170",
-      "t1500": "16:11.250",
+      "experience": 0,
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.5444,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -30199,15 +33590,15 @@
       "noc": "MEX",
       "serie": 2,
       "wr": 72,
-      "annee": 2006,
-      "experience": 12,
-      "t400": "3:53.750",
-      "t800": "8:01.270",
-      "t1500": "15:19.580",
+      "annee": null,
+      "experience": 0,
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.6312,
-      "respiration": "Droite"
+      "v1500": null,
+      "respiration": null
     },
     {
       "bib": 39,
@@ -30216,13 +33607,13 @@
       "serie": 2,
       "wr": 22,
       "annee": null,
-      "experience": 10,
-      "t400": "4:04.490",
-      "t800": "8:14.200",
-      "t1500": "15:28.760",
+      "experience": 0,
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.6151,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -30281,12 +33672,12 @@
       "wr": 172,
       "annee": null,
       "experience": 0,
-      "t400": "4:02.320",
-      "t800": "8:19.150",
-      "t1500": "15:46.420",
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.5849,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -30345,12 +33736,12 @@
       "wr": 119,
       "annee": null,
       "experience": 0,
-      "t400": "3:52.700",
-      "t800": "8:00.000",
-      "t1500": "15:13.550",
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.6419,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -30359,14 +33750,14 @@
       "noc": "ITA",
       "serie": 2,
       "wr": 26,
-      "annee": 1998,
+      "annee": null,
       "experience": 0,
-      "t400": "3:57.670",
-      "t800": "8:03.470",
-      "t1500": "15:19.050",
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.6321,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -30423,15 +33814,15 @@
       "noc": "AUS",
       "serie": 2,
       "wr": 17,
-      "annee": 2002,
-      "experience": 12,
-      "t400": "4:00.250",
-      "t800": "7:56.640",
-      "t1500": "15:08.720",
+      "annee": null,
+      "experience": 0,
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.6507,
-      "respiration": "Droite"
+      "v1500": null,
+      "respiration": null
     },
     {
       "bib": 53,
@@ -30521,12 +33912,12 @@
       "wr": 73,
       "annee": null,
       "experience": 0,
-      "t400": "3:47.090",
-      "t800": "7:44.070",
-      "t1500": "14:48.770",
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.6877,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -30553,12 +33944,12 @@
       "wr": null,
       "annee": null,
       "experience": 0,
-      "t400": "4:16.820",
-      "t800": "8:49.890",
-      "t1500": "16:45.760",
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.4914,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -30567,14 +33958,14 @@
       "noc": "ITA",
       "serie": 2,
       "wr": null,
-      "annee": 2003,
-      "experience": 4,
-      "t400": "3:57.360",
-      "t800": "8:08.400",
-      "t1500": "15:22.340",
+      "annee": null,
+      "experience": 0,
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.6263,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -30599,14 +33990,14 @@
       "noc": "ITA",
       "serie": 2,
       "wr": 37,
-      "annee": 2000,
-      "experience": 11,
-      "t400": "3:51.680",
-      "t800": "8:04.360",
-      "t1500": "15:10.670",
+      "annee": null,
+      "experience": 0,
+      "t400": null,
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.6471,
+      "v1500": null,
       "respiration": null
     },
     {
@@ -30615,14 +34006,14 @@
       "noc": "AUS",
       "serie": 2,
       "wr": 41,
-      "annee": 2003,
+      "annee": null,
       "experience": 0,
       "t400": null,
-      "t800": "8:02.250",
-      "t1500": "15:16.080",
+      "t800": null,
+      "t1500": null,
       "v400": null,
       "v800": null,
-      "v1500": 1.6374,
+      "v1500": null,
       "respiration": null
     },
     {
